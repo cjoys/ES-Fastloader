@@ -1,0 +1,5737 @@
+{
+    "aliases": {},
+    "mappings": {
+      "indextype": {
+        "_all": {
+          "enabled": false
+        },
+        "_source": {
+          "enabled": false
+        },
+        "dynamic_date_formats": [
+          "strict_date_optional_time",
+          "yyyy-MM-dd HH:mm:ss.SSS Z||yyyy-MM-dd HH:mm:ss.SSS||yyyy-MM-dd HH:mm:ss,SSS||yyyy/MM/dd HH:mm:ss||yyyy-MM-dd HH:mm:ss,SSS Z||yyyy/MM/dd HH:mm:ss,SSS Z||epoch_millis"
+        ],
+        "numeric_detection": true,
+        "properties": {
+          "15_day_no_driver_daijia": {
+            "type": "integer"
+          },
+          "1_day_no_driver_daijia": {
+            "type": "integer"
+          },
+          "30_day_no_driver_daijia": {
+            "type": "integer"
+          },
+          "60_day_no_driver_daijia": {
+            "type": "integer"
+          },
+          "7_day_no_driver_daijia": {
+            "type": "integer"
+          },
+          "90_day_no_driver_daijia": {
+            "type": "integer"
+          },
+          "account_comment_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "activation_potential_lost_users_hm": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "activeness_daijia": {
+            "type": "integer"
+          },
+          "activity_id_passenger_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "age_level": {
+            "type": "integer"
+          },
+          "age_passenger_bh": {
+            "type": "integer"
+          },
+          "aircallback_new_usr_coupon_subsidy_policy_gulf": {
+            "type": "long"
+          },
+          "all_pd_train_station_send_bubble_pid": {
+            "type": "integer"
+          },
+          "amt_bad_debt_gulf_fast": {
+            "type": "double"
+          },
+          "amt_coupon_available_bh": {
+            "type": "double"
+          },
+          "amt_coupon_cost_14_d_bh": {
+            "type": "double"
+          },
+          "amt_coupon_cost_30_d_bh": {
+            "type": "double"
+          },
+          "amt_coupon_cost_7_d_bh": {
+            "type": "double"
+          },
+          "amt_coupon_spend_01_d_fast": {
+            "type": "double"
+          },
+          "amt_coupon_spend_01_d_gulf": {
+            "type": "double"
+          },
+          "amt_coupon_spend_14_d_fast": {
+            "type": "double"
+          },
+          "amt_coupon_spend_14_d_gulf": {
+            "type": "double"
+          },
+          "amt_coupon_spend_14_d_sofa": {
+            "type": "long"
+          },
+          "amt_coupon_spend_14_d_yx": {
+            "type": "double"
+          },
+          "amt_coupon_spend_1_d_fast": {
+            "type": "double"
+          },
+          "amt_coupon_spend_1_d_gulf": {
+            "type": "double"
+          },
+          "amt_coupon_spend_1_d_yx": {
+            "type": "double"
+          },
+          "amt_coupon_spend_30_d_fast": {
+            "type": "double"
+          },
+          "amt_coupon_spend_30_d_gulf": {
+            "type": "double"
+          },
+          "amt_coupon_spend_7_d_fast": {
+            "type": "double"
+          },
+          "amt_coupon_spend_7_d_gulf": {
+            "type": "double"
+          },
+          "amt_coupon_spend_7_d_sofa": {
+            "type": "long"
+          },
+          "amt_coupon_spend_7_d_yx": {
+            "type": "double"
+          },
+          "amt_first_order_allowance_soda": {
+            "type": "double"
+          },
+          "amt_first_should_pay_bh": {
+            "type": "double"
+          },
+          "amt_first_subsidy_c_bh": {
+            "type": "double"
+          },
+          "amt_gmv_14_d_bh": {
+            "type": "double"
+          },
+          "amt_gmv_30_d_bh": {
+            "type": "double"
+          },
+          "amt_gmv_7_d_bh": {
+            "type": "double"
+          },
+          "amt_gmv_fisrt_finish_order_bh": {
+            "type": "double"
+          },
+          "amt_last_finish_order_gmv_bh": {
+            "type": "double"
+          },
+          "amt_last_should_pay_bh": {
+            "type": "double"
+          },
+          "amt_last_subsidy_c_bh": {
+            "type": "double"
+          },
+          "amt_lingqu_dachejin_14_d": {
+            "type": "double"
+          },
+          "amt_lingqu_dachejin_3_d": {
+            "type": "double"
+          },
+          "amt_lingqu_dachejin_7_d": {
+            "type": "double"
+          },
+          "amt_online_pay_fee_taxi": {
+            "type": "double"
+          },
+          "amt_online_pay_l_14_fee_taxi": {
+            "type": "double"
+          },
+          "amt_online_pay_l_30_fee_taxi": {
+            "type": "double"
+          },
+          "amt_online_pay_l_7_fee_taxi": {
+            "type": "double"
+          },
+          "amt_online_pay_l_90_fee_taxi": {
+            "type": "double"
+          },
+          "amt_online_pay_lastmonth_fee_taxi": {
+            "type": "double"
+          },
+          "amt_online_pay_lastweek_fee_taxi": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_00_m_gulf": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_01_d_fast": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_01_d_gulf": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_01_m_fast": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_01_m_gulf": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_01_m_taxi_gulf_fast": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_01_w_gulf": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_14_d_fast": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_14_d_gulf": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_1_d_fast": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_1_d_gulf": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_30_d_fast": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_30_d_gulf": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_7_d_fast": {
+            "type": "double"
+          },
+          "amt_paid_finish_orders_7_d_gulf": {
+            "type": "double"
+          },
+          "amt_paid_pay_succ_orders_01_d_taxi": {
+            "type": "double"
+          },
+          "amt_paid_pay_succ_orders_01_m_taxi": {
+            "type": "double"
+          },
+          "amt_paid_pay_succ_orders_14_d_taxi": {
+            "type": "double"
+          },
+          "amt_paid_pay_succ_orders_1_d_taxi": {
+            "type": "double"
+          },
+          "amt_paid_pay_succ_orders_30_d_taxi": {
+            "type": "double"
+          },
+          "amt_paid_pay_succ_orders_7_d_taxi": {
+            "type": "double"
+          },
+          "amt_payable_01_d_beatles": {
+            "type": "double"
+          },
+          "amt_payable_14_d_beatles": {
+            "type": "double"
+          },
+          "amt_payable_30_d_beatles": {
+            "type": "double"
+          },
+          "amt_payable_6_m_beatles": {
+            "type": "double"
+          },
+          "amt_payable_7_d_beatles": {
+            "type": "double"
+          },
+          "amt_payable_finish_orders_14_d_fast": {
+            "type": "double"
+          },
+          "amt_payable_finish_orders_14_d_gulf": {
+            "type": "double"
+          },
+          "amt_payable_finish_orders_1_d_fast": {
+            "type": "double"
+          },
+          "amt_payable_finish_orders_1_d_gulf": {
+            "type": "double"
+          },
+          "amt_payable_finish_orders_30_d_fast": {
+            "type": "double"
+          },
+          "amt_payable_finish_orders_30_d_gulf": {
+            "type": "double"
+          },
+          "amt_payable_finish_orders_7_d_fast": {
+            "type": "double"
+          },
+          "amt_payable_finish_orders_7_d_gulf": {
+            "type": "double"
+          },
+          "amt_real_pay_14_d_bh": {
+            "type": "double"
+          },
+          "amt_real_pay_30_d_bh": {
+            "type": "double"
+          },
+          "amt_real_pay_7_d_bh": {
+            "type": "double"
+          },
+          "amt_shiyong_dachejin_14_d": {
+            "type": "double"
+          },
+          "amt_shiyong_dachejin_3_d": {
+            "type": "double"
+          },
+          "amt_shiyong_dachejin_7_d": {
+            "type": "double"
+          },
+          "amt_subsidy_c_14_d_bh": {
+            "type": "double"
+          },
+          "amt_subsidy_c_30_d_bh": {
+            "type": "double"
+          },
+          "amt_subsidy_c_7_d_bh": {
+            "type": "double"
+          },
+          "amt_tips_01_d_fast": {
+            "type": "double"
+          },
+          "amt_tips_01_d_gulf": {
+            "type": "double"
+          },
+          "amt_tips_01_d_taxi": {
+            "type": "double"
+          },
+          "amt_tips_14_d_fast": {
+            "type": "double"
+          },
+          "amt_tips_14_d_gulf": {
+            "type": "double"
+          },
+          "amt_tips_14_d_taxi": {
+            "type": "double"
+          },
+          "amt_tips_1_d_fast": {
+            "type": "double"
+          },
+          "amt_tips_1_d_gulf": {
+            "type": "double"
+          },
+          "amt_tips_1_d_taxi": {
+            "type": "double"
+          },
+          "amt_tips_30_d_fast": {
+            "type": "double"
+          },
+          "amt_tips_30_d_gulf": {
+            "type": "double"
+          },
+          "amt_tips_30_d_taxi": {
+            "type": "double"
+          },
+          "amt_tips_7_d_fast": {
+            "type": "double"
+          },
+          "amt_tips_7_d_gulf": {
+            "type": "double"
+          },
+          "amt_tips_7_d_taxi": {
+            "type": "double"
+          },
+          "amt_total_circle_gmv_bh": {
+            "type": "double"
+          },
+          "amt_total_gmv_finish_orders_bh": {
+            "type": "double"
+          },
+          "amt_total_real_pay_bh": {
+            "type": "double"
+          },
+          "amt_total_schedule_fee_bh": {
+            "type": "double"
+          },
+          "area_most_create_ord_passenger_soda": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "ariusTimestamp": {
+            "type": "long"
+          },
+          "avg_amt_gmv_14_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_gmv_1_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_gmv_30_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_gmv_7_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_paid_finish_orders_14_d_sofa": {
+            "type": "long"
+          },
+          "avg_amt_paid_finish_orders_7_d_sofa": {
+            "type": "long"
+          },
+          "avg_amt_payable_finish_orders_90_d_fast": {
+            "type": "double"
+          },
+          "avg_amt_real_price_14_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_real_price_1_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_real_price_30_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_real_price_7_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_realpay_price_14_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_realpay_price_1_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_realpay_price_30_d_soda": {
+            "type": "double"
+          },
+          "avg_amt_realpay_price_7_d_soda": {
+            "type": "double"
+          },
+          "avg_cnt_actual_delivery_time_14_d_soda": {
+            "type": "double"
+          },
+          "avg_cnt_actual_delivery_time_30_d_soda": {
+            "type": "double"
+          },
+          "avg_cnt_actual_delivery_time_7_d_soda": {
+            "type": "double"
+          },
+          "avg_cnt_expected_delivery_time_14_d_soda": {
+            "type": "double"
+          },
+          "avg_cnt_expected_delivery_time_30_d_soda": {
+            "type": "double"
+          },
+          "avg_cnt_expected_delivery_time_7_d_soda": {
+            "type": "double"
+          },
+          "avg_dist_finish_14_d_tj": {
+            "type": "double"
+          },
+          "avg_dist_finish_7_d_tj": {
+            "type": "double"
+          },
+          "avg_dist_finish_orders_14_d_fast": {
+            "type": "double"
+          },
+          "avg_dist_finish_orders_1_d_fast": {
+            "type": "double"
+          },
+          "avg_dist_finish_orders_30_d_fast": {
+            "type": "double"
+          },
+          "avg_dist_finish_orders_30_d_yx": {
+            "type": "double"
+          },
+          "avg_dist_finish_orders_7_d_fast": {
+            "type": "double"
+          },
+          "avg_secs_passenger_wait_realtime_orders_01_m_fast": {
+            "type": "double"
+          },
+          "avg_secs_passenger_wait_time_length_14_d_fast": {
+            "type": "integer"
+          },
+          "avg_secs_passenger_wait_time_length_14_d_gulf": {
+            "type": "integer"
+          },
+          "avg_secs_passenger_wait_time_length_1_d_fast": {
+            "type": "integer"
+          },
+          "avg_secs_passenger_wait_time_length_1_d_gulf": {
+            "type": "integer"
+          },
+          "avg_secs_passenger_wait_time_length_30_d_fast": {
+            "type": "integer"
+          },
+          "avg_secs_passenger_wait_time_length_30_d_gulf": {
+            "type": "integer"
+          },
+          "avg_secs_passenger_wait_time_length_7_d_fast": {
+            "type": "integer"
+          },
+          "avg_secs_passenger_wait_time_length_7_d_gulf": {
+            "type": "integer"
+          },
+          "avg_secs_reply_realtime_orders_14_d_yx": {
+            "type": "double"
+          },
+          "avg_secs_reply_realtime_orders_1_d_yx": {
+            "type": "double"
+          },
+          "avg_secs_reply_realtime_orders_7_d_yx": {
+            "type": "double"
+          },
+          "avg_secs_strive_14_d_fast": {
+            "type": "double"
+          },
+          "avg_secs_strive_14_d_gulf": {
+            "type": "double"
+          },
+          "avg_secs_strive_1_d_fast": {
+            "type": "double"
+          },
+          "avg_secs_strive_30_d_fast": {
+            "type": "double"
+          },
+          "avg_secs_strive_30_d_gulf": {
+            "type": "double"
+          },
+          "avg_secs_strive_7_d_fast": {
+            "type": "double"
+          },
+          "avg_secs_strive_7_d_gulf": {
+            "type": "double"
+          },
+          "avg_star_orders_01_d_fast": {
+            "type": "double"
+          },
+          "avg_star_orders_01_d_gulf": {
+            "type": "double"
+          },
+          "avg_star_orders_14_d_fast": {
+            "type": "double"
+          },
+          "avg_star_orders_14_d_gulf": {
+            "type": "double"
+          },
+          "avg_star_orders_30_d_fast": {
+            "type": "double"
+          },
+          "avg_star_orders_30_d_gulf": {
+            "type": "double"
+          },
+          "avg_star_orders_7_d_fast": {
+            "type": "double"
+          },
+          "avg_star_orders_7_d_gulf": {
+            "type": "double"
+          },
+          "avg_xufei_money_es": {
+            "type": "double"
+          },
+          "bad_order_cnt": {
+            "type": "integer"
+          },
+          "behavior_score_fast": {
+            "type": "integer"
+          },
+          "bin_all_amt_cou_per_ord_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_all_avg_ada_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_all_avg_ata_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_all_cnt_cancel_order_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_all_pay_with_cou_finish_order_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_amt_last_365_d_cou_per_ord_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_cnt_all_complaint_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_days_first_finish_order_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_days_recency_finish_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_frequency_finish_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_rate_all_cnt_cancel_order_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_rate_complain_ord_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_rate_cou_act_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_rate_last_365_d_cou_act_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_rate_last_365_d_cou_finish_order_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_rfm_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bin_total_amt_finish_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "bonus_balance_fast": {
+            "type": "long"
+          },
+          "bonus_balance_gulf": {
+            "type": "long"
+          },
+          "bonus_last_charge_city_90_d_fast": {
+            "type": "long"
+          },
+          "bonus_last_charge_city_90_d_gulf": {
+            "type": "long"
+          },
+          "brand__passenger_ht": {
+            "type": "integer"
+          },
+          "bubbles_passenger_dep_airport_1_d_all": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "call_intensity_daijia": {
+            "type": "integer"
+          },
+          "call_mostly_city_id_beatles": {
+            "type": "long"
+          },
+          "carpool_activity_per_day_fast": {
+            "type": "long"
+          },
+          "carpool_activity_per_hour_fast": {
+            "type": "long"
+          },
+          "certification_passenger_ht": {
+            "type": "integer"
+          },
+          "channel_first_finish_ord_bh": {
+            "type": "integer"
+          },
+          "channel_last_finish_ord_bh": {
+            "type": "integer"
+          },
+          "channel_mortgage_bh": {
+            "type": "integer"
+          },
+          "channel_register_bh": {
+            "type": "integer"
+          },
+          "chongzhi_jihuo_gap_es": {
+            "type": "double"
+          },
+          "churn_percentile_bycity": {
+            "type": "double"
+          },
+          "churn_percentile_bycity_v2_passenger_fast": {
+            "type": "double"
+          },
+          "churn_probability": {
+            "type": "double"
+          },
+          "city_confirm_student": {
+            "type": "integer"
+          },
+          "city_first_create_ord_soda": {
+            "type": "long"
+          },
+          "city_first_finish_ord_bh": {
+            "type": "integer"
+          },
+          "city_first_finish_ord_soda": {
+            "type": "long"
+          },
+          "city_first_pay_ord_soda": {
+            "type": "long"
+          },
+          "city_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "city_id_census_register": {
+            "type": "integer"
+          },
+          "city_id_phone": {
+            "type": "integer"
+          },
+          "city_id_resident1": {
+            "type": "integer"
+          },
+          "city_id_resident2": {
+            "type": "integer"
+          },
+          "city_last_create_ord_soda": {
+            "type": "long"
+          },
+          "city_last_finish_ord_bh": {
+            "type": "integer"
+          },
+          "city_last_finish_ord_soda": {
+            "type": "long"
+          },
+          "city_last_pay_ord_soda": {
+            "type": "long"
+          },
+          "city_last_receive_card_bh": {
+            "type": "integer"
+          },
+          "city_low_subsidy_passenger_fast": {
+            "type": "integer"
+          },
+          "city_name_gulf": {
+            "type": "integer"
+          },
+          "city_register_bh": {
+            "type": "integer"
+          },
+          "cityid_es": {
+            "type": "integer"
+          },
+          "cityid_goods_last_all": {
+            "type": "long"
+          },
+          "cityid_goods_last_fast": {
+            "type": "long"
+          },
+          "cnt_2_finished_ord_30_d_high_premier": {
+            "type": "long"
+          },
+          "cnt_30_60_d_call_pas_gulf": {
+            "type": "long"
+          },
+          "cnt_30_60_d_finish_order_pas_gulf": {
+            "type": "long"
+          },
+          "cnt_30_d_finish_order_frequency_lm_both_taxi": {
+            "type": "integer"
+          },
+          "cnt_30_d_finish_order_pas_gulf": {
+            "type": "long"
+          },
+          "cnt_30_d_finish_order_weixin_only_taxi": {
+            "type": "integer"
+          },
+          "cnt_60_d_finish_order_pas_fast": {
+            "type": "long"
+          },
+          "cnt_acc_alipay_coupon": {
+            "type": "long"
+          },
+          "cnt_acc_ele_coupon": {
+            "type": "long"
+          },
+          "cnt_accepted_orders_01_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_01_d_fast": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_01_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_14_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_14_d_fast": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_14_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_1_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_1_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_30_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_accepted_orders_7_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_7_d_fast": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_7_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_accepted_orders_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_actdays_recent_30_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "cnt_actdays_recent_7_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "cnt_alipay_coupon_1d": {
+            "type": "long"
+          },
+          "cnt_all_30_finish_order_pas": {
+            "type": "long"
+          },
+          "cnt_all_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_all_pay_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_all_pay_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_all_pay_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_all_pay_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_all_pay_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_all_pay_taxi": {
+            "type": "long"
+          },
+          "cnt_allowance_order_14_d_soda": {
+            "type": "integer"
+          },
+          "cnt_allowance_order_1_d_soda": {
+            "type": "integer"
+          },
+          "cnt_allowance_order_30_d_soda": {
+            "type": "integer"
+          },
+          "cnt_allowance_order_7_d_soda": {
+            "type": "integer"
+          },
+          "cnt_answer_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_answer_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_answer_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_answer_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_answer_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_answer_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_answer_taxi": {
+            "type": "long"
+          },
+          "cnt_apply_mem_es": {
+            "type": "integer"
+          },
+          "cnt_bad_debt_orders_gulf_fast": {
+            "type": "double"
+          },
+          "cnt_bad_service_record_30_d_bh": {
+            "type": "integer"
+          },
+          "cnt_bad_service_record_7_d_bh": {
+            "type": "integer"
+          },
+          "cnt_bonus_finish_orders_30_d_fast": {
+            "type": "long"
+          },
+          "cnt_bonus_finish_orders_30_d_gulf": {
+            "type": "long"
+          },
+          "cnt_bubble_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_bubble_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_bubble_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_bubble_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_bubble_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_bubble_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_bubble_ord_1_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_bubble_ord_7_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_bubble_taxi": {
+            "type": "long"
+          },
+          "cnt_bubbles_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_call_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_call_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_call_14_d_tj": {
+            "type": "long"
+          },
+          "cnt_call_14_d_yx": {
+            "type": "integer"
+          },
+          "cnt_call_1_d_tj": {
+            "type": "long"
+          },
+          "cnt_call_1_d_yx": {
+            "type": "integer"
+          },
+          "cnt_call_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_call_30_d_tj": {
+            "type": "long"
+          },
+          "cnt_call_30_d_yx": {
+            "type": "integer"
+          },
+          "cnt_call_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_call_7_d_tj": {
+            "type": "long"
+          },
+          "cnt_call_7_d_yx": {
+            "type": "integer"
+          },
+          "cnt_call_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_call_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_call_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_call_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_call_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_call_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_call_need_14_d_taxi": {
+            "type": "long"
+          },
+          "cnt_call_need_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_call_need_7_d_taxi": {
+            "type": "long"
+          },
+          "cnt_call_need_90_d_taxi": {
+            "type": "long"
+          },
+          "cnt_call_need_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_call_need_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_call_need_taxi": {
+            "type": "long"
+          },
+          "cnt_call_ord_14_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_call_ord_1_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_call_ord_7_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_call_order_1_d_passenger_taxi": {
+            "type": "long"
+          },
+          "cnt_call_orders_01_d_fast": {
+            "type": "integer"
+          },
+          "cnt_call_orders_01_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_call_orders_14_d_fast": {
+            "type": "integer"
+          },
+          "cnt_call_orders_14_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_call_orders_14_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_call_orders_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_call_orders_1_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_call_orders_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_call_orders_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_call_orders_30_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_call_orders_3_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_call_orders_3_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_call_orders_3_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_call_orders_7_d_fast": {
+            "type": "integer"
+          },
+          "cnt_call_orders_7_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_call_orders_7_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_call_orders_8_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_call_orders_airport_01_y_gulf_fast": {
+            "type": "integer"
+          },
+          "cnt_call_orders_passenger_14_d_en": {
+            "type": "integer"
+          },
+          "cnt_call_orders_passenger_30_d_en": {
+            "type": "integer"
+          },
+          "cnt_call_orders_passenger_60_d_en": {
+            "type": "integer"
+          },
+          "cnt_call_orders_passenger_7_d_en": {
+            "type": "integer"
+          },
+          "cnt_call_orders_passenger_90_d_en": {
+            "type": "integer"
+          },
+          "cnt_call_orders_top_grade_01_y_gulf": {
+            "type": "integer"
+          },
+          "cnt_call_taxi": {
+            "type": "long"
+          },
+          "cnt_cancel_accepted_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_6_m_beatles": {
+            "type": "long"
+          },
+          "cnt_cancel_after_6_m_fast": {
+            "type": "long"
+          },
+          "cnt_cancel_after_length_6_m_fast": {
+            "type": "long"
+          },
+          "cnt_cancel_after_strive_01_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_01_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_14_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_14_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_1_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_3_d_sofa": {
+            "type": "long"
+          },
+          "cnt_cancel_after_strive_7_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_7_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_7_d_sofa": {
+            "type": "long"
+          },
+          "cnt_cancel_after_strive_realtime_1_d_yx": {
+            "type": "integer"
+          },
+          "cnt_cancel_after_strive_realtime_7_d_yx": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_6_m_fast": {
+            "type": "long"
+          },
+          "cnt_cancel_before_length_6_m_fast": {
+            "type": "long"
+          },
+          "cnt_cancel_before_strive_01_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_01_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_14_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_14_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_1_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_3_d_sofa": {
+            "type": "long"
+          },
+          "cnt_cancel_before_strive_7_d_fast": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_7_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_7_d_sofa": {
+            "type": "long"
+          },
+          "cnt_cancel_before_strive_realtime_1_d_yx": {
+            "type": "integer"
+          },
+          "cnt_cancel_before_strive_realtime_7_d_yx": {
+            "type": "integer"
+          },
+          "cnt_cancel_orders_01_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_cancel_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_cancel_orders_14_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_cancel_orders_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_cancel_orders_1_d_sofa_pingzuo": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_cancel_orders_1_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_cancel_orders_1_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_cancel_orders_30_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_cancel_orders_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_cancel_orders_3_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_cancel_orders_3_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_cancel_orders_7_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_cancel_orders_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_cancel_unaccepted_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_cancle_after_answer_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_after_answer_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_after_answer_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_after_answer_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_after_answer_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_after_answer_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_after_answer_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_before_answer_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_before_answer_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_before_answer_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_before_answer_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_before_answer_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_before_answer_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_cancle_before_answer_taxi": {
+            "type": "long"
+          },
+          "cnt_canuse_coupon_batchids_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_city_passenger": {
+            "type": "integer"
+          },
+          "cnt_compensate_orders_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_compensate_orders_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_01_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_01_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_14_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_14_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_1_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_1_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_1_d_yx": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_complain_orders_7_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_7_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_complain_orders_7_d_yx": {
+            "type": "integer"
+          },
+          "cnt_complain_work_orders_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complain_work_orders_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_01_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_01_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_14_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_14_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_1_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_1_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_complained_orders_7_d_fast": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_7_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_complained_orders_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_complainted_beatles": {
+            "type": "integer"
+          },
+          "cnt_coupon_available_bh": {
+            "type": "integer"
+          },
+          "cnt_coupon_available_fast": {
+            "type": "long"
+          },
+          "cnt_coupon_finish_orders_90_d_lux": {
+            "type": "long"
+          },
+          "cnt_coupon_use_14_d_bh": {
+            "type": "integer"
+          },
+          "cnt_coupon_use_30_d_bh": {
+            "type": "integer"
+          },
+          "cnt_coupon_use_7_d_bh": {
+            "type": "integer"
+          },
+          "cnt_current_coupon_ht": {
+            "type": "long"
+          },
+          "cnt_daijia_call_15_d_daijia": {
+            "type": "long"
+          },
+          "cnt_daijia_call_30_d_daijia": {
+            "type": "long"
+          },
+          "cnt_daijia_call_60_d_daijia": {
+            "type": "long"
+          },
+          "cnt_daijia_call_7_d_daijia": {
+            "type": "long"
+          },
+          "cnt_daijia_call_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_daijiao_finish_orders_90_d_lux": {
+            "type": "long"
+          },
+          "cnt_dawn_finished_daijia_ord_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_day_finished_daijia_ord_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_days_of_available_card_bh": {
+            "type": "integer"
+          },
+          "cnt_devices": {
+            "type": "integer"
+          },
+          "cnt_drunk_comment_12_m_beatles": {
+            "type": "integer"
+          },
+          "cnt_drunk_comment_6_m_beatles": {
+            "type": "long"
+          },
+          "cnt_early_call_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_early_finish_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_ele_coupon_1d": {
+            "type": "long"
+          },
+          "cnt_emp_num_es": {
+            "type": "integer"
+          },
+          "cnt_es_finish_orders_90_d_lux": {
+            "type": "long"
+          },
+          "cnt_evening_finish_orders_90_d_lux": {
+            "type": "long"
+          },
+          "cnt_f_score_rfm_passenger_soda": {
+            "type": "long"
+          },
+          "cnt_fast_120_finish_order_pas_fast": {
+            "type": "long"
+          },
+          "cnt_fast_90_finish_order_pas_fast": {
+            "type": "long"
+          },
+          "cnt_feedback_report_30_d_bh": {
+            "type": "integer"
+          },
+          "cnt_feedback_report_7_d_bh": {
+            "type": "integer"
+          },
+          "cnt_finish_14_d_tj": {
+            "type": "long"
+          },
+          "cnt_finish_14_d_yx": {
+            "type": "integer"
+          },
+          "cnt_finish_1_d_tj": {
+            "type": "long"
+          },
+          "cnt_finish_1_d_upgrade_yx": {
+            "type": "integer"
+          },
+          "cnt_finish_1_d_yx": {
+            "type": "integer"
+          },
+          "cnt_finish_30_d_tj": {
+            "type": "long"
+          },
+          "cnt_finish_30_d_yx": {
+            "type": "integer"
+          },
+          "cnt_finish_7_d_tj": {
+            "type": "long"
+          },
+          "cnt_finish_7_d_upgrade_yx": {
+            "type": "integer"
+          },
+          "cnt_finish_7_d_yx": {
+            "type": "integer"
+          },
+          "cnt_finish_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_finish_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_finish_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_finish_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_finish_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_finish_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_finish_ord_14_d_bh": {
+            "type": "integer"
+          },
+          "cnt_finish_ord_30_d_bh": {
+            "type": "integer"
+          },
+          "cnt_finish_ord_30_d_ht": {
+            "type": "long"
+          },
+          "cnt_finish_ord_7_d_bh": {
+            "type": "integer"
+          },
+          "cnt_finish_ord_app_ht": {
+            "type": "long"
+          },
+          "cnt_finish_ord_scancode_ht": {
+            "type": "long"
+          },
+          "cnt_finish_ord_wx_ht": {
+            "type": "long"
+          },
+          "cnt_finish_order_1_d_passenger_taxi": {
+            "type": "long"
+          },
+          "cnt_finish_order_30_d_com_es": {
+            "type": "integer"
+          },
+          "cnt_finish_order_30_d_esapp_mem_es": {
+            "type": "integer"
+          },
+          "cnt_finish_order_30_d_mem_es": {
+            "type": "integer"
+          },
+          "cnt_finish_order_30_d_renest_both_na_passenger_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_finish_order_30_d_weixin_only_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_order_6_m_fast": {
+            "type": "long"
+          },
+          "cnt_finish_order_75_d_gesake": {
+            "type": "long"
+          },
+          "cnt_finish_order_high_subsidy_pas_gulf": {
+            "type": "long"
+          },
+          "cnt_finish_orders_01_d_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_01_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_01_m_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_01_m_gulf": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_01_w_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_01_w_gulf": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_14_d_evening_peak_sofa": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_14_d_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_14_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_14_d_morning_peak_sofa": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_14_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_14_d_weekday_sofa": {
+            "type": "long"
+          },
+          "cnt_finish_orders_14_d_weekend_sofa": {
+            "type": "long"
+          },
+          "cnt_finish_orders_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_1_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_1_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_finish_orders_1_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_finish_orders_1_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_30_d_dj": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_30_d_sofa": {
+            "type": "long"
+          },
+          "cnt_finish_orders_30_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_3_d_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_3_d_sofa": {
+            "type": "long"
+          },
+          "cnt_finish_orders_3_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_finish_orders_3_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_finish_orders_5_d_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_60_d_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_60_d_sofa": {
+            "type": "long"
+          },
+          "cnt_finish_orders_7_d_fast": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_7_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_7_d_sofa": {
+            "type": "long"
+          },
+          "cnt_finish_orders_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_90_d_dj": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_90_d_fast": {
+            "type": "long"
+          },
+          "cnt_finish_orders_90_d_lux": {
+            "type": "long"
+          },
+          "cnt_finish_orders_90_d_sofa": {
+            "type": "long"
+          },
+          "cnt_finish_orders_cross_border": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_fast_14_days": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_fast_1_days": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_fast_30_days": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_fast_3_days": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_fast_5_days": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_fast_7_days": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_from_app": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_from_weixin": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_from_zhifubao": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_passenger_14_d_en": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_passenger_30_d_cn": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_passenger_30_d_en": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_passenger_60_d_en": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_passenger_7_d_cn": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_passenger_7_d_en": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_passenger_90_d_cn": {
+            "type": "integer"
+          },
+          "cnt_finish_orders_passenger_90_d_en": {
+            "type": "integer"
+          },
+          "cnt_finish_taxi": {
+            "type": "long"
+          },
+          "cnt_finished_daijia_ord_15_d_daijia": {
+            "type": "long"
+          },
+          "cnt_finished_daijia_ord_30_d_daijia": {
+            "type": "long"
+          },
+          "cnt_finished_daijia_ord_60_d_daijia": {
+            "type": "long"
+          },
+          "cnt_finished_daijia_ord_7_d_daijia": {
+            "type": "long"
+          },
+          "cnt_finished_daijia_ord_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_finished_ord_14_d_bj_high_luxe": {
+            "type": "integer"
+          },
+          "cnt_finished_ord_14_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_finished_ord_14_d_sh_high_luxe": {
+            "type": "integer"
+          },
+          "cnt_finished_ord_14_d_sz_high_luxe": {
+            "type": "integer"
+          },
+          "cnt_finished_ord_180_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_finished_ord_30_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_finished_ord_60_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_finished_ord_7_d_luxe": {
+            "type": "integer"
+          },
+          "cnt_finished_ord_bj_high_14_d": {
+            "type": "long"
+          },
+          "cnt_finished_ord_gz_high_14_d": {
+            "type": "long"
+          },
+          "cnt_finished_ord_sh_high_14_d": {
+            "type": "long"
+          },
+          "cnt_finished_ord_sz_high_14_d": {
+            "type": "long"
+          },
+          "cnt_first_diff_days_taxi": {
+            "type": "long"
+          },
+          "cnt_firstcall_today_beatles": {
+            "type": "long"
+          },
+          "cnt_fisrt_14_d_finish_ord_bh": {
+            "type": "integer"
+          },
+          "cnt_fisrt_3_d_finish_ord_bh": {
+            "type": "integer"
+          },
+          "cnt_fisrt_7_d_finish_ord_bh": {
+            "type": "integer"
+          },
+          "cnt_frequency_rfm_passenger_soda": {
+            "type": "long"
+          },
+          "cnt_from_free_deposit_date_bh": {
+            "type": "integer"
+          },
+          "cnt_goods_coupon_num_retain_all": {
+            "type": "long"
+          },
+          "cnt_goods_coupon_num_retain_fast": {
+            "type": "long"
+          },
+          "cnt_goods_order_30d_all": {
+            "type": "long"
+          },
+          "cnt_goods_order_30d_fast": {
+            "type": "long"
+          },
+          "cnt_goods_order_90d_all": {
+            "type": "long"
+          },
+          "cnt_goods_order_90d_fast": {
+            "type": "long"
+          },
+          "cnt_hk_passenger_call_order": {
+            "type": "long"
+          },
+          "cnt_hk_passenger_finish_order": {
+            "type": "long"
+          },
+          "cnt_hk_passsenger_call_order_14_d": {
+            "type": "long"
+          },
+          "cnt_hk_passsenger_call_order_30_d": {
+            "type": "long"
+          },
+          "cnt_hk_passsenger_call_order_7_d": {
+            "type": "long"
+          },
+          "cnt_koubei_ck": {
+            "type": "integer"
+          },
+          "cnt_koubei_view_passenger": {
+            "type": "integer"
+          },
+          "cnt_last_14_day_complete_soda": {
+            "type": "long"
+          },
+          "cnt_last_14_day_create_soda": {
+            "type": "long"
+          },
+          "cnt_last_14_day_pay_cancel_soda": {
+            "type": "long"
+          },
+          "cnt_last_14_day_pay_soda": {
+            "type": "long"
+          },
+          "cnt_last_14_day_refund_soda": {
+            "type": "long"
+          },
+          "cnt_last_1_day_complete_soda": {
+            "type": "long"
+          },
+          "cnt_last_1_day_create_soda": {
+            "type": "long"
+          },
+          "cnt_last_1_day_pay_cancel_soda": {
+            "type": "long"
+          },
+          "cnt_last_1_day_pay_soda": {
+            "type": "long"
+          },
+          "cnt_last_1_day_refund_soda": {
+            "type": "long"
+          },
+          "cnt_last_30_day_complete_soda": {
+            "type": "long"
+          },
+          "cnt_last_30_day_create_soda": {
+            "type": "long"
+          },
+          "cnt_last_30_day_pay_cancel_soda": {
+            "type": "long"
+          },
+          "cnt_last_30_day_pay_soda": {
+            "type": "long"
+          },
+          "cnt_last_30_day_refund_soda": {
+            "type": "long"
+          },
+          "cnt_last_3_day_complete_soda": {
+            "type": "long"
+          },
+          "cnt_last_3_day_create_soda": {
+            "type": "long"
+          },
+          "cnt_last_3_day_pay_cancel_soda": {
+            "type": "long"
+          },
+          "cnt_last_3_day_pay_soda": {
+            "type": "long"
+          },
+          "cnt_last_3_day_refund_soda": {
+            "type": "long"
+          },
+          "cnt_last_60_day_complete_soda": {
+            "type": "long"
+          },
+          "cnt_last_60_day_create_soda": {
+            "type": "long"
+          },
+          "cnt_last_60_day_pay_cancel_soda": {
+            "type": "long"
+          },
+          "cnt_last_60_day_pay_soda": {
+            "type": "long"
+          },
+          "cnt_last_60_day_refund_soda": {
+            "type": "long"
+          },
+          "cnt_last_7_day_complete_soda": {
+            "type": "long"
+          },
+          "cnt_last_7_day_create_soda": {
+            "type": "long"
+          },
+          "cnt_last_7_day_pay_cancel_soda": {
+            "type": "long"
+          },
+          "cnt_last_7_day_pay_soda": {
+            "type": "long"
+          },
+          "cnt_last_7_day_refund_soda": {
+            "type": "long"
+          },
+          "cnt_last_90_day_complete_soda": {
+            "type": "long"
+          },
+          "cnt_last_90_day_create_soda": {
+            "type": "long"
+          },
+          "cnt_last_90_day_pay_cancel_soda": {
+            "type": "long"
+          },
+          "cnt_last_90_day_pay_soda": {
+            "type": "long"
+          },
+          "cnt_last_90_day_refund_soda": {
+            "type": "long"
+          },
+          "cnt_last_pay_to_current_ht": {
+            "type": "long"
+          },
+          "cnt_late_call_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_late_finish_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_lingqu_dachejin_14_d": {
+            "type": "long"
+          },
+          "cnt_lingqu_dachejin_3_d": {
+            "type": "long"
+          },
+          "cnt_lingqu_dachejin_7_d": {
+            "type": "long"
+          },
+          "cnt_love_app_beatles": {
+            "type": "integer"
+          },
+          "cnt_m_score_rfm_passenger_soda": {
+            "type": "long"
+          },
+          "cnt_monetary_rfm_passenger_soda": {
+            "type": "long"
+          },
+          "cnt_morning_finish_orders_90_d_lux": {
+            "type": "long"
+          },
+          "cnt_night_finished_daijia_ord_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_no_daijia_dri_15_d_daijia": {
+            "type": "long"
+          },
+          "cnt_no_daijia_dri_30_d_daijia": {
+            "type": "long"
+          },
+          "cnt_no_daijia_dri_60_d_daijia": {
+            "type": "long"
+          },
+          "cnt_no_daijia_dri_7_d_daijia": {
+            "type": "long"
+          },
+          "cnt_no_daijia_dri_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_normal_finish_orders_90_d_lux": {
+            "type": "long"
+          },
+          "cnt_not_comment_6_m_beatles": {
+            "type": "long"
+          },
+          "cnt_offline_pay_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_offline_pay_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_offline_pay_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_offline_pay_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_offline_pay_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_offline_pay_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_offline_pay_taxi": {
+            "type": "long"
+          },
+          "cnt_one_star_6_m_fast": {
+            "type": "long"
+          },
+          "cnt_online_pay_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_online_pay_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_online_pay_l_7_taxi": {
+            "type": "long"
+          },
+          "cnt_online_pay_l_90_taxi": {
+            "type": "long"
+          },
+          "cnt_online_pay_lastmonth_taxi": {
+            "type": "long"
+          },
+          "cnt_online_pay_lastweek_taxi": {
+            "type": "long"
+          },
+          "cnt_online_pay_taxi": {
+            "type": "long"
+          },
+          "cnt_only_daijia_dawn_call_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_dawn_est_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_dawn_tab_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_day_call_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_day_est_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_day_tab_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_est_15_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_est_30_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_est_60_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_est_7_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_est_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_night_call_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_night_est_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_night_tab_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_tab_15_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_tab_30_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_tab_60_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_tab_7_d_daijia": {
+            "type": "long"
+          },
+          "cnt_only_daijia_tab_90_d_daijia": {
+            "type": "long"
+          },
+          "cnt_ordinary_call_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_ordinary_finish_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_pay_succ_orders_01_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_01_d_fast": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_01_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_01_m_gulf": {
+            "type": "long"
+          },
+          "cnt_pay_succ_orders_14_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_14_d_fast": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_14_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_1_d_fast": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_1_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_1_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_30_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_pay_succ_orders_7_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_7_d_fast": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_7_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_pay_succ_orders_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_personal_finish_orders_90_d_lux": {
+            "type": "long"
+          },
+          "cnt_purchase_bus_seat": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_purchase_bus_seat_14_d": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_purchase_bus_seat_30_d": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_purchase_bus_seat_7_d": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_purchase_seat": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_purchase_seat_14_d": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_purchase_seat_30_d": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_purchase_seat_7_d": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "cnt_r_score_rfm_passenger_soda": {
+            "type": "long"
+          },
+          "cnt_receive_sms_14_d": {
+            "type": "integer"
+          },
+          "cnt_receive_sms_30_d": {
+            "type": "integer"
+          },
+          "cnt_receive_sms_7_d": {
+            "type": "integer"
+          },
+          "cnt_recency_rfm_passenger_soda": {
+            "type": "long"
+          },
+          "cnt_riks_ord_daijia": {
+            "type": "long"
+          },
+          "cnt_rude_complaint_6_m_fast": {
+            "type": "long"
+          },
+          "cnt_rude_complaint_6_m_fastc": {
+            "type": "long"
+          },
+          "cnt_send_orders_01_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_send_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_send_orders_14_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_send_orders_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_send_orders_30_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_send_orders_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_send_orders_7_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_send_orders_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_send_orders_tips_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_send_orders_tips_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_send_orders_tips_1_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_send_orders_tips_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_send_orders_tips_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_shiyong_dachejin_14_d": {
+            "type": "long"
+          },
+          "cnt_shiyong_dachejin_3_d": {
+            "type": "long"
+          },
+          "cnt_shiyong_dachejin_7_d": {
+            "type": "long"
+          },
+          "cnt_six_month_order_num_daijia": {
+            "type": "long"
+          },
+          "cnt_station_180_d_gulf": {
+            "type": "long"
+          },
+          "cnt_station_180_d_pass": {
+            "type": "long"
+          },
+          "cnt_station_30_d_gulf": {
+            "type": "long"
+          },
+          "cnt_station_30_d_pass": {
+            "type": "long"
+          },
+          "cnt_station_360_d_gulf": {
+            "type": "long"
+          },
+          "cnt_station_360_d_pass": {
+            "type": "long"
+          },
+          "cnt_station_60_d_gulf": {
+            "type": "long"
+          },
+          "cnt_station_60_d_pass": {
+            "type": "long"
+          },
+          "cnt_station_90_d_gulf": {
+            "type": "long"
+          },
+          "cnt_station_90_d_pass": {
+            "type": "long"
+          },
+          "cnt_student_last_month_bike_coupon": {
+            "type": "integer"
+          },
+          "cnt_student_last_month_fast_coupon": {
+            "type": "integer"
+          },
+          "cnt_student_llast_month_bike_coupon": {
+            "type": "integer"
+          },
+          "cnt_student_llast_month_fast_coupon": {
+            "type": "integer"
+          },
+          "cnt_student_this_month_bike_coupon": {
+            "type": "integer"
+          },
+          "cnt_succ_orders_01_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_succ_orders_01_m_taxi": {
+            "type": "integer"
+          },
+          "cnt_succ_orders_14_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_succ_orders_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_succ_orders_7_d_taxi": {
+            "type": "integer"
+          },
+          "cnt_taiwan_passenger_call_order": {
+            "type": "long"
+          },
+          "cnt_taiwan_passenger_call_order_14_d": {
+            "type": "long"
+          },
+          "cnt_taiwan_passenger_call_order_30_d": {
+            "type": "long"
+          },
+          "cnt_taiwan_passenger_call_order_7_d": {
+            "type": "long"
+          },
+          "cnt_taiwan_passenger_finish_order": {
+            "type": "long"
+          },
+          "cnt_this_month_fast_coupon": {
+            "type": "integer"
+          },
+          "cnt_tongqin_late_peak": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_180_d_all": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_180_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_30_d_all": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_30_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_360_d_all": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_360_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_60_d_all": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_60_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_90_d_all": {
+            "type": "integer"
+          },
+          "cnt_total_air_last_90_d_gulf": {
+            "type": "integer"
+          },
+          "cnt_total_coupon_30_soda": {
+            "type": "long"
+          },
+          "cnt_total_coupon_7_soda": {
+            "type": "long"
+          },
+          "cnt_total_finished_num_carshare": {
+            "type": "long"
+          },
+          "cnt_total_order_user_bike_htw_t": {
+            "type": "integer"
+          },
+          "cnt_travel_app_beatles": {
+            "type": "integer"
+          },
+          "cnt_travel_succ_orders_01_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_travel_succ_orders_14_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_travel_succ_orders_30_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_travel_succ_orders_7_d_beatles": {
+            "type": "integer"
+          },
+          "cnt_unused_coupon_30_soda": {
+            "type": "long"
+          },
+          "cnt_unused_coupon_7_soda": {
+            "type": "long"
+          },
+          "cnt_use_company_mem_es": {
+            "type": "integer"
+          },
+          "cnt_used_coupon_01_d_fast": {
+            "type": "long"
+          },
+          "cnt_used_coupon_01_d_gulf": {
+            "type": "long"
+          },
+          "cnt_used_coupon_14_d_fast": {
+            "type": "long"
+          },
+          "cnt_used_coupon_14_d_gulf": {
+            "type": "long"
+          },
+          "cnt_used_coupon_14_d_sofa": {
+            "type": "long"
+          },
+          "cnt_used_coupon_1_d_fast": {
+            "type": "long"
+          },
+          "cnt_used_coupon_1_d_gulf": {
+            "type": "long"
+          },
+          "cnt_used_coupon_30_d_fast": {
+            "type": "long"
+          },
+          "cnt_used_coupon_30_d_gulf": {
+            "type": "long"
+          },
+          "cnt_used_coupon_30_soda": {
+            "type": "long"
+          },
+          "cnt_used_coupon_3_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_used_coupon_3_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_used_coupon_7_d_fast": {
+            "type": "long"
+          },
+          "cnt_used_coupon_7_d_gulf": {
+            "type": "long"
+          },
+          "cnt_used_coupon_7_d_sofa": {
+            "type": "long"
+          },
+          "cnt_used_coupon_7_soda": {
+            "type": "long"
+          },
+          "cnt_used_vou_daijia": {
+            "type": "long"
+          },
+          "cnt_valid_bubbles_14_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_valid_bubbles_1_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_valid_bubbles_1_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_valid_bubbles_30_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_valid_bubbles_3_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_valid_bubbles_3_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_valid_bubbles_3_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_valid_bubbles_7_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_valid_succ_bubbles_14_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_valid_succ_bubbles_1_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_valid_succ_bubbles_1_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_valid_succ_bubbles_30_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_valid_succ_bubbles_3_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_valid_succ_bubbles_3_d_sofa_pingzuo": {
+            "type": "long"
+          },
+          "cnt_valid_succ_bubbles_3_d_sofa_solo": {
+            "type": "long"
+          },
+          "cnt_valid_succ_bubbles_7_d_sofa": {
+            "type": "integer"
+          },
+          "cnt_week_end_call_14_d_taxi": {
+            "type": "long"
+          },
+          "cnt_week_end_call_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_weekend_call_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_weekend_call_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_weekend_finish_l_14_taxi": {
+            "type": "long"
+          },
+          "cnt_weekend_finish_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_weixin_channel_order_30_d_fast": {
+            "type": "integer"
+          },
+          "cnt_work_call_l_30_taxi": {
+            "type": "long"
+          },
+          "cnt_work_day_peak_call_14_d_taxi": {
+            "type": "long"
+          },
+          "cnt_work_day_peak_call_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_work_day_unpeak_call_14_d_taxi": {
+            "type": "long"
+          },
+          "cnt_work_day_unpeak_call_30_d_taxi": {
+            "type": "long"
+          },
+          "cnt_work_finish_l_30_taxi": {
+            "type": "long"
+          },
+          "com_create_time_es": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "com_life_cycle_es": {
+            "type": "integer"
+          },
+          "com_order_source_es": {
+            "type": "integer"
+          },
+          "com_rfm_es": {
+            "type": "integer"
+          },
+          "com_scene_chailv_es": {
+            "type": "integer"
+          },
+          "com_scene_daijiaoche_es": {
+            "type": "integer"
+          },
+          "com_scene_jiaban_es": {
+            "type": "integer"
+          },
+          "com_scene_jiesongji_es": {
+            "type": "integer"
+          },
+          "com_scene_richangbuxu_es": {
+            "type": "integer"
+          },
+          "com_scene_richangxu_es": {
+            "type": "integer"
+          },
+          "com_scene_tongqin_es": {
+            "type": "integer"
+          },
+          "commu_index": {
+            "type": "long"
+          },
+          "company": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "company_city_id": {
+            "type": "string"
+          },
+          "company_confidence": {
+            "type": "double"
+          },
+          "company_district": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "company_id_es": {
+            "type": "long"
+          },
+          "company_lat": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "company_lng": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "company_lnglat": {
+            "type": "geo_shape"
+          },
+          "company_name_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "consume_ability": {
+            "type": "double"
+          },
+          "consume_index": {
+            "type": "double"
+          },
+          "consume_rank": {
+            "type": "double"
+          },
+          "consume_stability": {
+            "type": "double"
+          },
+          "consume_stability_woe": {
+            "type": "double"
+          },
+          "consume_type": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "coupon_first_finish_order_datetime_gulf": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyy/MM/dd||yyyyMMdd"
+          },
+          "coupon_first_finish_order_id_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "coupon_his_city_id": {
+            "type": "long"
+          },
+          "coupon_his_coupon_expire_time": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "coupon_his_coupon_remain_amount": {
+            "type": "long"
+          },
+          "coupon_his_coupon_remain_cnt": {
+            "type": "long"
+          },
+          "coupon_his_last_pay_time": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "coupon_his_max_valid_date": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "coupon_his_max_valid_discount_amount": {
+            "type": "long"
+          },
+          "coupon_his_min_valid_discount": {
+            "type": "long"
+          },
+          "coupon_his_sum_pay_amount": {
+            "type": "long"
+          },
+          "coupon_his_sum_pay_cnt": {
+            "type": "long"
+          },
+          "coupon_his_sum_pay_coupon_cnt": {
+            "type": "long"
+          },
+          "coupon_raise_gmv": {
+            "type": "integer"
+          },
+          "coupon_rely_level": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "create_time": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "credit_risks_grade": {
+            "type": "long"
+          },
+          "credit_risks_score": {
+            "type": "double"
+          },
+          "damage_fast": {
+            "type": "double"
+          },
+          "danger_score_passenger": {
+            "type": "integer"
+          },
+          "date_com_update_time_es": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_bind_coupon_ht": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_bubble_dt_taxi": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_bubble_tj": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_call_taxi": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_call_tj": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_card_ht": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_complete_soda": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_create_soda": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_finish_ord_ht": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_finish_order_passenger_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "date_first_finish_taxi": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_finish_tj": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_pay_soda": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_submit_deposit_bh": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_first_visit_passenger_gongjiao": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "date_first_yinka_passenger_gulf": {
+            "type": "integer"
+          },
+          "date_free_deposit_bh": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_goods_final_expire_all": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "date_goods_final_expire_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "date_goods_last_pay_all": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "date_goods_last_pay_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "date_last_bubble_dt_taxi": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_bubble_tj": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_call_taxi": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_call_tj": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_complete_soda": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_create_soda": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_disorder_stop_report_bh": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_fault_report_bh": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_finish_ord_bh": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_finish_taxi": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_finish_tj": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_pay_card_passenger": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "date_last_pay_soda": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_private_lock_report_bh": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_last_receive_card_bh": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_lingqu_dachejin_last_d": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_passenger_register_bh": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_shiyong_dachejin_last_d": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "date_student_confirm": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "day_first_finish_order_pas_gulf": {
+            "type": "long"
+          },
+          "day_last_finish_pas_gulf": {
+            "type": "long"
+          },
+          "days_7_d_ht": {
+            "type": "long"
+          },
+          "days_cert_to_current_ht": {
+            "type": "long"
+          },
+          "days_coupon_left_ht": {
+            "type": "long"
+          },
+          "days_first_bind_coupon_to_current_ht": {
+            "type": "long"
+          },
+          "days_first_call_gulf": {
+            "type": "integer"
+          },
+          "days_first_call_yx": {
+            "type": "integer"
+          },
+          "days_first_finish_beatles": {
+            "type": "integer"
+          },
+          "days_first_finish_fast": {
+            "type": "integer"
+          },
+          "days_first_finish_gulf": {
+            "type": "integer"
+          },
+          "days_first_finish_taxi": {
+            "type": "integer"
+          },
+          "days_first_finish_tot": {
+            "type": "integer"
+          },
+          "days_first_finish_yx": {
+            "type": "integer"
+          },
+          "days_first_ord_to_current_ht": {
+            "type": "long"
+          },
+          "days_from_first_end_order_bh": {
+            "type": "integer"
+          },
+          "days_from_mortgage_date_bh": {
+            "type": "integer"
+          },
+          "days_from_register_date_bh": {
+            "type": "integer"
+          },
+          "days_last_call_yx": {
+            "type": "integer"
+          },
+          "days_last_finish_yx": {
+            "type": "integer"
+          },
+          "days_last_ord_to_current_ht": {
+            "type": "long"
+          },
+          "days_no_call_taxi": {
+            "type": "integer"
+          },
+          "days_receive_last_sms": {
+            "type": "integer"
+          },
+          "days_since_last_call_order_fast_passenger": {
+            "type": "integer"
+          },
+          "days_since_last_finish_order_fast": {
+            "type": "integer"
+          },
+          "days_since_last_finish_order_gulf": {
+            "type": "integer"
+          },
+          "days_since_reg": {
+            "type": "integer"
+          },
+          "days_student_identification_within_31_d": {
+            "type": "long"
+          },
+          "days_tab_14_d_bus": {
+            "type": "long"
+          },
+          "days_tab_30_d_bus": {
+            "type": "long"
+          },
+          "days_tab_7_d_bus": {
+            "type": "long"
+          },
+          "dd_soda": {
+            "type": "integer"
+          },
+          "ddm_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "didi_coin": {
+            "type": "integer"
+          },
+          "distance_first_cycle_bh": {
+            "type": "double"
+          },
+          "distance_last_cycle_bh": {
+            "type": "double"
+          },
+          "distance_tongqin": {
+            "type": "integer"
+          },
+          "distance_total_cycle_bh": {
+            "type": "double"
+          },
+          "duanwai_gaoqian_fenzu_daijia": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "duration_first_cycle_bh": {
+            "type": "double"
+          },
+          "duration_last_cycle_bh": {
+            "type": "double"
+          },
+          "duration_total_finish_orders_bh": {
+            "type": "double"
+          },
+          "elm_soda": {
+            "type": "integer"
+          },
+          "fast_passenger_ltv": {
+            "type": "double"
+          },
+          "fast_passenger_member_level": {
+            "type": "long"
+          },
+          "fast_upgrade_gulf_probability": {
+            "type": "double"
+          },
+          "finish_orders_first_passenger_3_d_ht": {
+            "type": "integer"
+          },
+          "finish_orders_first_passenger_7_d_ht": {
+            "type": "integer"
+          },
+          "finish_orders_first_passenger_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_15_d_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_1_d_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_30_d_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_3_d_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_7_d_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_90_d_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_high_acive_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_low_acive_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_mid_acive_ht": {
+            "type": "integer"
+          },
+          "finish_orders_passenger_silence_acive_ht": {
+            "type": "integer"
+          },
+          "finish_passenger_ht": {
+            "type": "integer"
+          },
+          "finished_to_now_day_cnt_daijia": {
+            "type": "long"
+          },
+          "first_bubble_time_fast": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "first_bubble_time_gulf": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "first_call_time_crosscity_beatles": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "first_call_time_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_call_time_gulf": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_call_time_not_share_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_call_time_share_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_call_time_sofa": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_call_time_sofa_pingzuo": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_call_time_sofa_solo": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_call_time_taxi": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_call_time_tot": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_call_yx_city_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_come_channel_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_finish_date_es": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_finish_order_coupon_channel_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_finish_product": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_finish_product_id_taxi": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_finish_product_new": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_finish_time_crosscity_beatles": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "first_finish_time_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_finish_time_gulf": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_finish_time_incity_beatles": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "first_finish_time_not_share_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_finish_time_share_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_finish_time_sofa": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "first_finish_time_sofa_pingzuo": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_finish_time_sofa_solo": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_finish_yx_city_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_finished_channel_daijia": {
+            "type": "integer"
+          },
+          "first_level_stage_beatles": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_level_stage_bike": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_level_stage_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_level_stage_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_level_stage_luxu": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_level_stage_net": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_level_stage_platform": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_level_stage_taxi": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_level_stage_yx": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_order_city_ht": {
+            "type": "integer"
+          },
+          "first_order_time_beatles": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_pay_succ_order_time_taxi": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_pay_time_beatles": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_receive_time_es": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_reply_time_beatles": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "first_send_ord_channel_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_send_order_datetime_gulf": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_send_order_dest_address_id_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_send_order_id_gulf": {
+            "type": "double"
+          },
+          "first_send_order_is_dl_fast_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_send_order_is_dl_taxi_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_send_order_start_address_id_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_suc_city_gulf": {
+            "type": "long"
+          },
+          "first_succ_order_time_taxi": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "first_tab_date_bus": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_tab_date_target_passenger_bus": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "first_travel_succ_time_beatles": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "firstorder_is_daoliu_gulf": {
+            "type": "integer"
+          },
+          "flag_dita": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "flag_uber": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "from_edaijia": {
+            "type": "integer"
+          },
+          "from_waibuapp_daijia": {
+            "type": "integer"
+          },
+          "gaoqian_fenzu_daijia": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "gender": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "gender_passenger_bh": {
+            "type": "integer"
+          },
+          "gmv_finish_ord_14_d_en": {
+            "type": "integer"
+          },
+          "gmv_finish_ord_30_d_cn": {
+            "type": "integer"
+          },
+          "gmv_finish_ord_30_d_en": {
+            "type": "integer"
+          },
+          "gmv_finish_ord_60_d_en": {
+            "type": "integer"
+          },
+          "gmv_finish_ord_7_d_cn": {
+            "type": "integer"
+          },
+          "gmv_finish_ord_7_d_en": {
+            "type": "integer"
+          },
+          "gmv_finish_ord_90_d_cn": {
+            "type": "integer"
+          },
+          "gmv_finish_ord_90_d_en": {
+            "type": "integer"
+          },
+          "group_flag_passenger": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "group_id_coupon_model_fast": {
+            "type": "integer"
+          },
+          "group_id_coupon_model_gulf": {
+            "type": "integer"
+          },
+          "group_id_coupon_model_yx": {
+            "type": "integer"
+          },
+          "group_id_coupon_tag_gulf": {
+            "type": "integer"
+          },
+          "harassed_female_score": {
+            "type": "integer"
+          },
+          "harassed_rank_score_passenger": {
+            "type": "double"
+          },
+          "has_car_probability": {
+            "type": "double"
+          },
+          "has_coupon_gulf": {
+            "type": "long"
+          },
+          "hk_passenger_last_finish_time": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "hk_passenger_last_online_pay_time": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "home": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "home_city_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "home_confidence": {
+            "type": "double"
+          },
+          "home_district": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "home_lat": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "home_lng": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "home_lnglat": {
+            "type": "geo_shape"
+          },
+          "hongkong_finish_order_cnt_14": {
+            "type": "long"
+          },
+          "hongkong_finish_order_cnt_30": {
+            "type": "long"
+          },
+          "hongkong_finish_order_cnt_7": {
+            "type": "long"
+          },
+          "hotspot": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "hotspot_lat": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "hotspot_lng": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "hotspot_lnglat": {
+            "type": "geo_shape"
+          },
+          "hundred_group_passenger": {
+            "type": "integer"
+          },
+          "id_coupon_air_callback_gulf": {
+            "type": "long"
+          },
+          "influence_rank_fast": {
+            "type": "double"
+          },
+          "influence_score": {
+            "type": "double"
+          },
+          "initial_account_es": {
+            "type": "integer"
+          },
+          "is_add_emergency_contact_passenger": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_air_business_all": {
+            "type": "integer"
+          },
+          "is_ali_nopass": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_app_only_coupon": {
+            "type": "integer"
+          },
+          "is_apply_manhattan": {
+            "type": "long"
+          },
+          "is_beatles_driver": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_businessman": {
+            "type": "double"
+          },
+          "is_cert": {
+            "type": "integer"
+          },
+          "is_commute_card_pinche": {
+            "type": "long"
+          },
+          "is_competitor1_soda": {
+            "type": "integer"
+          },
+          "is_competitor2_soda": {
+            "type": "integer"
+          },
+          "is_credit_es": {
+            "type": "integer"
+          },
+          "is_credit_manhattan": {
+            "type": "long"
+          },
+          "is_daijia_driver_all": {
+            "type": "integer"
+          },
+          "is_daijia_replace_call_daijia": {
+            "type": "integer"
+          },
+          "is_daoliu_last_gulf": {
+            "type": "integer"
+          },
+          "is_dd_mt_overlap": {
+            "type": "integer"
+          },
+          "is_foreigner_passenger": {
+            "type": "integer"
+          },
+          "is_fresh_student": {
+            "type": "integer"
+          },
+          "is_funds_partner1_manhattan": {
+            "type": "long"
+          },
+          "is_funds_partner2_manhattan": {
+            "type": "long"
+          },
+          "is_get_student_coupon": {
+            "type": "long"
+          },
+          "is_guest_car_passenger_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_gulf_invoice": {
+            "type": "long"
+          },
+          "is_having_baby": {
+            "type": "integer"
+          },
+          "is_having_child": {
+            "type": "integer"
+          },
+          "is_hexin_user_en": {
+            "type": "integer"
+          },
+          "is_high_potential_pinche": {
+            "type": "integer"
+          },
+          "is_high_propagation_passenger": {
+            "type": "integer"
+          },
+          "is_hk_phone": {
+            "type": "integer"
+          },
+          "is_lang_old_user": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_last_14_day_if_access_app_soda": {
+            "type": "long"
+          },
+          "is_last_14_day_if_access_dishes_soda": {
+            "type": "long"
+          },
+          "is_last_14_day_if_access_shop_soda": {
+            "type": "long"
+          },
+          "is_last_14_day_if_access_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_14_day_if_add_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_14_day_if_search_result_soda": {
+            "type": "long"
+          },
+          "is_last_1_day_if_access_app_soda": {
+            "type": "long"
+          },
+          "is_last_1_day_if_access_dishes_soda": {
+            "type": "long"
+          },
+          "is_last_1_day_if_access_shop_soda": {
+            "type": "long"
+          },
+          "is_last_1_day_if_access_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_1_day_if_add_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_1_day_if_search_result_soda": {
+            "type": "long"
+          },
+          "is_last_30_day_if_access_app_soda": {
+            "type": "long"
+          },
+          "is_last_30_day_if_access_dishes_soda": {
+            "type": "long"
+          },
+          "is_last_30_day_if_access_shop_soda": {
+            "type": "long"
+          },
+          "is_last_30_day_if_access_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_30_day_if_add_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_30_day_if_search_result_soda": {
+            "type": "long"
+          },
+          "is_last_3_day_if_access_app_soda": {
+            "type": "long"
+          },
+          "is_last_3_day_if_access_dishes_soda": {
+            "type": "long"
+          },
+          "is_last_3_day_if_access_shop_soda": {
+            "type": "long"
+          },
+          "is_last_3_day_if_access_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_3_day_if_add_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_3_day_if_search_result_soda": {
+            "type": "long"
+          },
+          "is_last_60_day_if_access_app_soda": {
+            "type": "long"
+          },
+          "is_last_60_day_if_access_dishes_soda": {
+            "type": "long"
+          },
+          "is_last_60_day_if_access_shop_soda": {
+            "type": "long"
+          },
+          "is_last_60_day_if_access_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_60_day_if_add_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_60_day_if_search_result_soda": {
+            "type": "long"
+          },
+          "is_last_7_day_if_access_app_soda": {
+            "type": "long"
+          },
+          "is_last_7_day_if_access_dishes_soda": {
+            "type": "long"
+          },
+          "is_last_7_day_if_access_shop_soda": {
+            "type": "long"
+          },
+          "is_last_7_day_if_access_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_7_day_if_add_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_7_day_if_search_result_soda": {
+            "type": "long"
+          },
+          "is_last_90_day_if_access_app_soda": {
+            "type": "long"
+          },
+          "is_last_90_day_if_access_dishes_soda": {
+            "type": "long"
+          },
+          "is_last_90_day_if_access_shop_soda": {
+            "type": "long"
+          },
+          "is_last_90_day_if_access_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_90_day_if_add_shopcart_soda": {
+            "type": "long"
+          },
+          "is_last_90_day_if_search_result_soda": {
+            "type": "long"
+          },
+          "is_loan_manhattan": {
+            "type": "long"
+          },
+          "is_manager_es": {
+            "type": "integer"
+          },
+          "is_nearstation_recent_1_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_nearstation_recent_30_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_nearstation_recent_7_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_new_cross_passenger": {
+            "type": "integer"
+          },
+          "is_new_user_shijia": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_over_75_licheng_passenger_fast": {
+            "type": "long"
+          },
+          "is_pregnant_family": {
+            "type": "integer"
+          },
+          "is_pregnant_passenger": {
+            "type": "integer"
+          },
+          "is_reach_manhattan": {
+            "type": "long"
+          },
+          "is_real_recent_1_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_real_recent_30_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_real_recent_7_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_reg_driver": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_risk_daijia": {
+            "type": "integer"
+          },
+          "is_search_recent_1_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_search_recent_30_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_search_recent_7_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_self_car_passenger_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_sex_worker_passenger": {
+            "type": "integer"
+          },
+          "is_shenzhou_user": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_student": {
+            "type": "integer"
+          },
+          "is_student_for_business": {
+            "type": "integer"
+          },
+          "is_subway_recent_1_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_subway_recent_30_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_subway_recent_7_day_passenger_gongjiao": {
+            "type": "long"
+          },
+          "is_supermanager_es": {
+            "type": "integer"
+          },
+          "is_target_passenger_bus": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_tomorrow_limit": {
+            "type": "integer"
+          },
+          "is_tourist": {
+            "type": "double"
+          },
+          "is_use_dai_passenger_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_use_kuai_passenger_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_use_lux_passenger_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_use_zhuan_passenger_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_white_list_manhattan": {
+            "type": "long"
+          },
+          "is_wx_nopass": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "is_yidao_user": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "kc_coupon_his_city_id": {
+            "type": "long"
+          },
+          "kc_coupon_his_coupon_expire_time": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "kc_coupon_his_coupon_remain_amount": {
+            "type": "long"
+          },
+          "kc_coupon_his_coupon_remain_cnt": {
+            "type": "long"
+          },
+          "kc_coupon_his_last_pay_time": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "kc_coupon_his_max_valid_date": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "kc_coupon_his_max_valid_discount_amount": {
+            "type": "long"
+          },
+          "kc_coupon_his_min_valid_discount": {
+            "type": "long"
+          },
+          "kc_coupon_his_sum_pay_amount": {
+            "type": "long"
+          },
+          "kc_coupon_his_sum_pay_cnt": {
+            "type": "long"
+          },
+          "kc_coupon_his_sum_pay_coupon_cnt": {
+            "type": "long"
+          },
+          "l10n_area_passenger": {
+            "type": "integer"
+          },
+          "last_1to7_div_8to37_day_finish_count_rate_gulf": {
+            "type": "double"
+          },
+          "last_30_day_area": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_apply_time_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_bubble_time_fast": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "last_call_city_id": {
+            "type": "long"
+          },
+          "last_call_time_crosscity_beatles": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "last_call_time_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_call_time_gulf": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_call_time_not_share_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_call_time_share_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_call_time_sofa": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_call_time_sofa_pingzuo": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_call_time_sofa_solo": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_call_time_taxi": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_call_time_tot": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd || yyyyMMdd"
+          },
+          "last_call_yx_city_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finish_channel": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finish_city_30_d": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finish_month_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finish_order_city_id_sofa": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finish_product": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finish_product_new": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finish_source_sofa": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finish_time_com_es": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_finish_time_crosscity_beatles": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "last_finish_time_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_finish_time_gulf": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_finish_time_incity_beatles": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "last_finish_time_not_share_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_finish_time_share_fast": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_finish_time_sofa": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "last_finish_yx_city_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_finished_channel_daijia": {
+            "type": "integer"
+          },
+          "last_login_time": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_no_passenger_plate_number": {
+            "type": "long"
+          },
+          "last_no_plate_with_car": {
+            "type": "integer"
+          },
+          "last_order_city_ht": {
+            "type": "integer"
+          },
+          "last_order_pay_way_taxi": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_order_time_beatles": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_pay_succ_order_time_taxi": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_pay_time_beatles": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_reply_time_beatles": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "last_str_passenger_plate_number": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "last_succ_order_time_taxi": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_travel_succ_time_beatles": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "last_verify_area": {
+            "type": "string",
+            "index": "not_analyzed",
+            "store": true
+          },
+          "last_xufei_money_es": {
+            "type": "double"
+          },
+          "level_bad_weather_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "level_conflict_passenger": {
+            "type": "integer"
+          },
+          "level_core_pass": {
+            "type": "integer"
+          },
+          "level_holiday_decay_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "level_holiday_prefer_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "level_id": {
+            "type": "long"
+          },
+          "level_influence": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "level_last_month_passenger_gulf": {
+            "type": "integer"
+          },
+          "level_nmf_subsidy_passenger_fast": {
+            "type": "integer"
+          },
+          "level_nmf_value_passenger_fast": {
+            "type": "integer"
+          },
+          "level_nmf_value_remain_subsidy_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "level_purchase_power": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "level_sex_conflict_passenger": {
+            "type": "integer"
+          },
+          "life_cycle_es": {
+            "type": "integer"
+          },
+          "lifecycle_order_fast": {
+            "type": "integer"
+          },
+          "low_price_fast": {
+            "type": "integer"
+          },
+          "marital_status_passenger": {
+            "type": "integer"
+          },
+          "max_amt_unused_coupon_30_d_soda": {
+            "type": "double"
+          },
+          "max_amt_unused_coupon_7_d_soda": {
+            "type": "double"
+          },
+          "maxlevel_passenger_gulf": {
+            "type": "integer"
+          },
+          "mem_create_time_es": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "mem_first_finish_date_es": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "mem_last_pay_time_es": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "mem_rfm_es": {
+            "type": "integer"
+          },
+          "member_id_es": {
+            "type": "long"
+          },
+          "member_lady_first": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "mins_pickup_realtime_orders_14_d_yx": {
+            "type": "double"
+          },
+          "mins_pickup_realtime_orders_1_d_yx": {
+            "type": "double"
+          },
+          "mins_pickup_realtime_orders_7_d_yx": {
+            "type": "double"
+          },
+          "mob_daijia": {
+            "type": "long"
+          },
+          "model_tag_ht": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "money_es": {
+            "type": "double"
+          },
+          "most_send_ord_period_p_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "mt_soda": {
+            "type": "integer"
+          },
+          "nanjing_x_prob": {
+            "type": "double"
+          },
+          "new_passenger_ltv_30d": {
+            "type": "double"
+          },
+          "order_scene_chailv_es": {
+            "type": "integer"
+          },
+          "order_scene_daijiaoche_es": {
+            "type": "integer"
+          },
+          "order_scene_jiaban_es": {
+            "type": "integer"
+          },
+          "order_scene_jiesongji_es": {
+            "type": "integer"
+          },
+          "order_scene_richangbuxu_es": {
+            "type": "integer"
+          },
+          "order_scene_richangxu_es": {
+            "type": "integer"
+          },
+          "order_scene_tongqin_es": {
+            "type": "integer"
+          },
+          "order_source_mem_es": {
+            "type": "integer"
+          },
+          "order_subsidy_sensitive_level": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "p_gender": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "package_type_passenger_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "pag_best_ord_channel_daijia": {
+            "type": "integer"
+          },
+          "pag_last_ord_channel_daijia": {
+            "type": "integer"
+          },
+          "pag_log_channel": {
+            "type": "integer"
+          },
+          "passenger_activeness_bus": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_app_version": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_auth_state_en": {
+            "type": "integer"
+          },
+          "passenger_birth_year": {
+            "type": "integer"
+          },
+          "passenger_car_fast_order": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_churn_factors_1th": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_churn_factors_2th": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_churn_factors_3th": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_churn_factors_4th": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_churn_factors_5th": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_commute_category": {
+            "type": "integer"
+          },
+          "passenger_current_city": {
+            "type": "integer"
+          },
+          "passenger_decay_prob_gulf": {
+            "type": "double"
+          },
+          "passenger_face_status_en": {
+            "type": "integer"
+          },
+          "passenger_finish_arrive_hotel_1_day": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_id": {
+            "type": "long",
+            "store": true
+          },
+          "passenger_id_daijia": {
+            "type": "long"
+          },
+          "passenger_irreal_slient_user_fast": {
+            "type": "long"
+          },
+          "passenger_itags": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_late_score": {
+            "type": "double"
+          },
+          "passenger_lifecycle": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_lifecycle_ht": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_lifecycle_type": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_loyalty_prob": {
+            "type": "double"
+          },
+          "passenger_mt_prob_didi": {
+            "type": "double"
+          },
+          "passenger_nick_name": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_os_type": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_os_version": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_phone": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_phone_idfa": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_phone_imei": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_phone_model": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_potential_driver_probability": {
+            "type": "double"
+          },
+          "passenger_profile_occupation": {
+            "type": "integer"
+          },
+          "passenger_reg_beatles_time": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "passenger_remain_rate_nmf": {
+            "type": "double"
+          },
+          "passenger_rfm_type": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_status": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_status_bus": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_with_car_probablity": {
+            "type": "double"
+          },
+          "passenger_xyf_active_type": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_xyf_app_type": {
+            "type": "long"
+          },
+          "passenger_xyf_city": {
+            "type": "long"
+          },
+          "passenger_xyf_consume_type": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_xyf_is_native": {
+            "type": "long"
+          },
+          "passenger_xyf_is_online": {
+            "type": "long"
+          },
+          "passenger_xyf_pas_is_driver": {
+            "type": "long"
+          },
+          "passenger_xyf_preapproval_is_open": {
+            "type": "long"
+          },
+          "passenger_xyf_risk_level": {
+            "type": "long"
+          },
+          "passenger_xyf_risk_score": {
+            "type": "long"
+          },
+          "passenger_xyf_time_frame": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "passenger_xyf_white_list_info_jd": {
+            "type": "long"
+          },
+          "pct_30_d_active_conversation_pas_gulf": {
+            "type": "double"
+          },
+          "pct_30_d_finish_order_wx_both_taxi": {
+            "type": "double"
+          },
+          "pct_60_d_finish_order_pas_gulf_all": {
+            "type": "double"
+          },
+          "pct_90_d_finish_order_pas_gulf_all": {
+            "type": "double"
+          },
+          "pct_allowance_amt_rate_14_d_soda": {
+            "type": "double"
+          },
+          "pct_allowance_amt_rate_1_d_soda": {
+            "type": "double"
+          },
+          "pct_allowance_amt_rate_30_d_soda": {
+            "type": "double"
+          },
+          "pct_allowance_amt_rate_7_d_soda": {
+            "type": "double"
+          },
+          "pct_allowance_order_rate_14_d_soda": {
+            "type": "double"
+          },
+          "pct_allowance_order_rate_1_d_soda": {
+            "type": "double"
+          },
+          "pct_allowance_order_rate_30_d_soda": {
+            "type": "double"
+          },
+          "pct_allowance_order_rate_7_d_soda": {
+            "type": "double"
+          },
+          "pct_auto_back_nocoupon_passenger_fast": {
+            "type": "double"
+          },
+          "pct_business_affairs": {
+            "type": "double"
+          },
+          "pct_business_trip": {
+            "type": "double"
+          },
+          "pct_call_order_3_d_passenger_gulf": {
+            "type": "double"
+          },
+          "pct_call_orders_14_d_share_fast": {
+            "type": "double"
+          },
+          "pct_call_orders_1_d_share_fast": {
+            "type": "double"
+          },
+          "pct_call_orders_30_d_share_fast": {
+            "type": "double"
+          },
+          "pct_call_orders_7_d_share_fast": {
+            "type": "double"
+          },
+          "pct_call_orders_evening_peak_30_d_fast": {
+            "type": "double"
+          },
+          "pct_call_orders_morning_peak_30_d_fast": {
+            "type": "double"
+          },
+          "pct_call_orders_regular_hours_30_d_fast": {
+            "type": "double"
+          },
+          "pct_call_orders_tomorrow_fast": {
+            "type": "double"
+          },
+          "pct_call_orders_workday_30_d_fast": {
+            "type": "double"
+          },
+          "pct_cancel_after_strive_01_m_fast": {
+            "type": "double"
+          },
+          "pct_change_rate_finish_orders_14_d_fast": {
+            "type": "double"
+          },
+          "pct_change_rate_finish_orders_14_d_gulf": {
+            "type": "double"
+          },
+          "pct_change_rate_finish_orders_30_d_fast": {
+            "type": "double"
+          },
+          "pct_change_rate_finish_orders_30_d_gulf": {
+            "type": "double"
+          },
+          "pct_change_rate_finish_orders_7_d_fast": {
+            "type": "double"
+          },
+          "pct_change_rate_finish_orders_7_d_gulf": {
+            "type": "double"
+          },
+          "pct_commute": {
+            "type": "double"
+          },
+          "pct_complain_ratio_daijia": {
+            "type": "double"
+          },
+          "pct_complained_ratio_daijia": {
+            "type": "double"
+          },
+          "pct_complaint_60_d_fast": {
+            "type": "double"
+          },
+          "pct_complaint_deal_60_d_fast": {
+            "type": "double"
+          },
+          "pct_complainted_60_d_fast": {
+            "type": "double"
+          },
+          "pct_credit_risks": {
+            "type": "double"
+          },
+          "pct_diversion_passenger_youxiang": {
+            "type": "double"
+          },
+          "pct_drunk_prob_passenger": {
+            "type": "double"
+          },
+          "pct_education": {
+            "type": "double"
+          },
+          "pct_entertainment": {
+            "type": "double"
+          },
+          "pct_finish_orders_01_m_gulf_per_total": {
+            "type": "double"
+          },
+          "pct_finish_orders_14_d_evening_peak_sofa": {
+            "type": "double"
+          },
+          "pct_finish_orders_14_d_morning_peak_sofa": {
+            "type": "double"
+          },
+          "pct_finish_orders_14_d_other_peak_sofa": {
+            "type": "double"
+          },
+          "pct_finish_orders_14_d_share_fast": {
+            "type": "double"
+          },
+          "pct_finish_orders_1_d_share_fast": {
+            "type": "double"
+          },
+          "pct_finish_orders_30_d_lux": {
+            "type": "double"
+          },
+          "pct_finish_orders_30_d_share_fast": {
+            "type": "double"
+          },
+          "pct_finish_orders_7_d_share_fast": {
+            "type": "double"
+          },
+          "pct_first_order_allowance_rate_soda": {
+            "type": "double"
+          },
+          "pct_foreigner_probability_passenger": {
+            "type": "double"
+          },
+          "pct_grow_ord_30_d_after_gulf": {
+            "type": "double"
+          },
+          "pct_gulf_passenger_new": {
+            "type": "double"
+          },
+          "pct_harassed_female": {
+            "type": "double"
+          },
+          "pct_hotel_order": {
+            "type": "double"
+          },
+          "pct_jihuo_mem_es": {
+            "type": "double"
+          },
+          "pct_large_hub": {
+            "type": "double"
+          },
+          "pct_life_service": {
+            "type": "double"
+          },
+          "pct_lifecycle_accuracy_fast": {
+            "type": "double"
+          },
+          "pct_low_purchase_power": {
+            "type": "double"
+          },
+          "pct_loyalty_prob_v2_nanjing_fast": {
+            "type": "double"
+          },
+          "pct_loyalty_prob_v2_shanghai_fast": {
+            "type": "double"
+          },
+          "pct_medical_treatment": {
+            "type": "double"
+          },
+          "pct_negative_60_d_fast": {
+            "type": "double"
+          },
+          "pct_order_sensitive_all": {
+            "type": "double"
+          },
+          "pct_others": {
+            "type": "double"
+          },
+          "pct_overtime_rate_14_d_soda": {
+            "type": "double"
+          },
+          "pct_overtime_rate_30_d_soda": {
+            "type": "double"
+          },
+          "pct_overtime_rate_7_d_soda": {
+            "type": "double"
+          },
+          "pct_parent_children_order": {
+            "type": "double"
+          },
+          "pct_passenger_diversion_gulf": {
+            "type": "double"
+          },
+          "pct_passenger_new_youxiang": {
+            "type": "double"
+          },
+          "pct_passenger_silent_gulf": {
+            "type": "double"
+          },
+          "pct_passenger_silent_youxiang": {
+            "type": "double"
+          },
+          "pct_potential_new_passenger_gulf": {
+            "type": "double"
+          },
+          "pct_potential_silent_passenger_gulf": {
+            "type": "double"
+          },
+          "pct_premier_passenger_air_180_360_d_silent_score": {
+            "type": "double"
+          },
+          "pct_premier_passenger_air_30_90_d_silent_score": {
+            "type": "double"
+          },
+          "pct_premier_passenger_air_60_180_d_silent_score": {
+            "type": "double"
+          },
+          "pct_premier_passenger_air_90_180_d_silent_score": {
+            "type": "double"
+          },
+          "pct_product_preference_30_d_fast": {
+            "type": "double"
+          },
+          "pct_product_preference_30_d_gulf": {
+            "type": "double"
+          },
+          "pct_rank_cnt_finish_orders_30_d_fast": {
+            "type": "double"
+          },
+          "pct_rank_cnt_finish_orders_30_d_gulf": {
+            "type": "double"
+          },
+          "pct_rank_cnt_finish_orders_7_d_fast": {
+            "type": "double"
+          },
+          "pct_rank_cnt_finish_orders_7_d_gulf": {
+            "type": "double"
+          },
+          "pct_send_newcoupon_total": {
+            "type": "double"
+          },
+          "pct_send_oldcoupon_total": {
+            "type": "double"
+          },
+          "pct_silence180_call_7_d_fast": {
+            "type": "double"
+          },
+          "pct_silence30_90_call_7_d_fast": {
+            "type": "double"
+          },
+          "pct_silence90_180_call_7_d_fast": {
+            "type": "double"
+          },
+          "pct_silent_passenger_fast": {
+            "type": "double"
+          },
+          "pct_social_contact": {
+            "type": "double"
+          },
+          "pct_station_gulf": {
+            "type": "double"
+          },
+          "pct_station_silent_180_360_d_gulf": {
+            "type": "double"
+          },
+          "pct_station_silent_180_pass_360_d_gulf": {
+            "type": "double"
+          },
+          "pct_station_silent_30_90_d_gulf": {
+            "type": "double"
+          },
+          "pct_station_silent_30_pass_90_d_gulf": {
+            "type": "double"
+          },
+          "pct_station_silent_60_180_d_gulf": {
+            "type": "double"
+          },
+          "pct_station_silent_60_pass_180_d_gulf": {
+            "type": "double"
+          },
+          "pct_station_silent_90_180_d_gulf": {
+            "type": "double"
+          },
+          "pct_station_silent_90_pass_180_d_gulf": {
+            "type": "double"
+          },
+          "pct_traffic_transfer": {
+            "type": "double"
+          },
+          "percent_wx_app_renest_both_na_info_fast": {
+            "type": "double"
+          },
+          "permanent_city_passenger_daijia": {
+            "type": "integer"
+          },
+          "position_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "potential_level_daijia": {
+            "type": "integer"
+          },
+          "prefer_scene": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "premier_air_high_potential_pas_score": {
+            "type": "double"
+          },
+          "premier_passenger_last_180_d_air_potential_score": {
+            "type": "double"
+          },
+          "premier_passenger_last_30_d_air_potential_score": {
+            "type": "double"
+          },
+          "premier_passenger_last_360_d_air_potential_score": {
+            "type": "double"
+          },
+          "premier_passenger_last_90_d_air_potential_score": {
+            "type": "double"
+          },
+          "price_tolerance_fast": {
+            "type": "integer"
+          },
+          "prob_passenger_go_to_airport": {
+            "type": "double"
+          },
+          "product_last_call_passenger": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "provinceid_es": {
+            "type": "integer"
+          },
+          "purchase_bus_vs_total_ratio": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "quadra_group_passenger": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "rain_soda": {
+            "type": "integer"
+          },
+          "reason_abnormal_passenger_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "recommend_layers": {
+            "type": "integer"
+          },
+          "reg_channel": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "reg_city_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "reg_ip": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "reg_time": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "resident_city_level": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "rfm_type_ht": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "scene_chailv_es": {
+            "type": "integer"
+          },
+          "scene_daijiaoche_es": {
+            "type": "integer"
+          },
+          "scene_jiaban_es": {
+            "type": "integer"
+          },
+          "scene_jiesongji_es": {
+            "type": "integer"
+          },
+          "scene_richangbuxu_es": {
+            "type": "integer"
+          },
+          "scene_richangxu_es": {
+            "type": "integer"
+          },
+          "scene_tongqin_es": {
+            "type": "integer"
+          },
+          "score_bad_weather_fast": {
+            "type": "double"
+          },
+          "score_conflict": {
+            "type": "long"
+          },
+          "score_holiday_decay_fast": {
+            "type": "double"
+          },
+          "score_holiday_prefer_fast": {
+            "type": "double"
+          },
+          "score_long_distance_fast": {
+            "type": "double"
+          },
+          "score_medium_distance_fast": {
+            "type": "double"
+          },
+          "score_short_distance_fast": {
+            "type": "double"
+          },
+          "score_status_passenger_fast": {
+            "type": "double"
+          },
+          "score_subsidy_sensitive_passenger_gulf": {
+            "type": "double"
+          },
+          "score_trainstation_high_potential_gulf": {
+            "type": "double"
+          },
+          "score_zm_beatles": {
+            "type": "integer"
+          },
+          "second_level_stage_beatles": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "second_level_stage_bike": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "second_level_stage_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "second_level_stage_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "second_level_stage_luxu": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "second_level_stage_net": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "second_level_stage_platform": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "second_level_stage_taxi": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "second_level_stage_yx": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "sensitive_level_silent": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "sensitive_level_user_coupon_soda": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "service_prob": {
+            "type": "double"
+          },
+          "silence_ltv_30d": {
+            "type": "double"
+          },
+          "silent_passenger_recall_probability": {
+            "type": "double"
+          },
+          "sinkTime": {
+            "type": "long"
+          },
+          "smart_coupon_city_exp_group_fast": {
+            "type": "integer"
+          },
+          "smart_hufan_city_group_fast": {
+            "type": "integer"
+          },
+          "source_daijia": {
+            "type": "integer"
+          },
+          "source_with_car": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "statdate": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "state_name_auth_beatles": {
+            "type": "integer"
+          },
+          "status_forbid_beatles": {
+            "type": "integer"
+          },
+          "status_is_mortgage_bh": {
+            "type": "integer"
+          },
+          "status_passenger_audit_bh": {
+            "type": "integer"
+          },
+          "status_passenger_bh": {
+            "type": "integer"
+          },
+          "stdate_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "student_28_d_call_trend": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "student_28_d_finish_trend": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "student_28_d_peak_call_trend": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "student_28_d_peak_finish_trend": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "student_7_28_d_call_ratio": {
+            "type": "double"
+          },
+          "student_7_28_d_finish_ratio": {
+            "type": "double"
+          },
+          "student_7_28_d_peak_call_ratio": {
+            "type": "double"
+          },
+          "student_7_28_d_peak_finish_ratio": {
+            "type": "double"
+          },
+          "student_birth_year": {
+            "type": "long"
+          },
+          "student_confirm_flag": {
+            "type": "integer"
+          },
+          "student_edu_type": {
+            "type": "integer"
+          },
+          "student_entrance_year": {
+            "type": "long"
+          },
+          "student_graduation_year": {
+            "type": "long"
+          },
+          "student_migration_type": {
+            "type": "integer"
+          },
+          "student_school_name": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "student_type_passenger": {
+            "type": "integer"
+          },
+          "student_unbind_flag": {
+            "type": "integer"
+          },
+          "subsidy_rate_14_d_pas_fast": {
+            "type": "double"
+          },
+          "subsidy_rate_30_d_pas_fast": {
+            "type": "double"
+          },
+          "subsidy_rate_7_d_pas_fast": {
+            "type": "double"
+          },
+          "subsidy_sensitive": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "tag_id_activity_group_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "taiwan_finish_order_cnt_14": {
+            "type": "long"
+          },
+          "taiwan_finish_order_cnt_30": {
+            "type": "long"
+          },
+          "taiwan_finish_order_cnt_7": {
+            "type": "long"
+          },
+          "taocan_paid_1_d_gulf": {
+            "type": "long"
+          },
+          "time_complaint_max_deal_60_d_fast": {
+            "type": "integer"
+          },
+          "time_first_end_server_passenger_dj": {
+            "type": "date",
+            "format": "yyyy-MM-dd||yyyy/MM/dd||yyyyMMdd"
+          },
+          "time_first_finish_ord_bh": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "time_first_ord_pay_passenger_dj": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "time_tongqin": {
+            "type": "integer"
+          },
+          "timestamp": {
+            "type": "long"
+          },
+          "tomorrow_precipitation": {
+            "type": "double"
+          },
+          "tomorrow_precipitation_level": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "tonglu_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "total_amt_allowance_amt_14_d_soda": {
+            "type": "double"
+          },
+          "total_amt_allowance_amt_1_d_soda": {
+            "type": "double"
+          },
+          "total_amt_allowance_amt_30_d_soda": {
+            "type": "double"
+          },
+          "total_amt_allowance_amt_7_d_soda": {
+            "type": "double"
+          },
+          "total_amt_available_dachejin": {
+            "type": "double"
+          },
+          "total_amt_coupon_30_d_soda": {
+            "type": "double"
+          },
+          "total_amt_coupon_7_d_soda": {
+            "type": "double"
+          },
+          "total_amt_coupon_spend_bh": {
+            "type": "double"
+          },
+          "total_amt_gmv_14_d_soda": {
+            "type": "double"
+          },
+          "total_amt_gmv_1_d_soda": {
+            "type": "double"
+          },
+          "total_amt_gmv_30_d_soda": {
+            "type": "double"
+          },
+          "total_amt_gmv_7_d_soda": {
+            "type": "double"
+          },
+          "total_amt_goods_pay_all": {
+            "type": "double"
+          },
+          "total_amt_goods_pay_fast": {
+            "type": "double"
+          },
+          "total_amt_paid_finish_orders_fast": {
+            "type": "double"
+          },
+          "total_amt_paid_finish_orders_gulf": {
+            "type": "double"
+          },
+          "total_amt_paid_pay_succ_orders_taxi": {
+            "type": "double"
+          },
+          "total_amt_payable_beatles": {
+            "type": "double"
+          },
+          "total_amt_purchase_riding_card_bh": {
+            "type": "double"
+          },
+          "total_amt_real_price_14_d_soda": {
+            "type": "double"
+          },
+          "total_amt_real_price_1_d_soda": {
+            "type": "double"
+          },
+          "total_amt_real_price_30_d_soda": {
+            "type": "double"
+          },
+          "total_amt_real_price_7_d_soda": {
+            "type": "double"
+          },
+          "total_amt_realpay_price_14_d_soda": {
+            "type": "double"
+          },
+          "total_amt_realpay_price_1_d_soda": {
+            "type": "double"
+          },
+          "total_amt_realpay_price_30_d_soda": {
+            "type": "double"
+          },
+          "total_amt_realpay_price_7_d_soda": {
+            "type": "double"
+          },
+          "total_amt_subsidy_c_bh": {
+            "type": "double"
+          },
+          "total_call_cnt_nativeapp": {
+            "type": "long"
+          },
+          "total_call_cnt_webapp": {
+            "type": "long"
+          },
+          "total_call_orders_fast": {
+            "type": "integer"
+          },
+          "total_call_orders_gulf": {
+            "type": "integer"
+          },
+          "total_call_orders_not_share_fast": {
+            "type": "integer"
+          },
+          "total_call_orders_share_fast": {
+            "type": "integer"
+          },
+          "total_cnt_accepted_orders_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_accepted_orders_taxi": {
+            "type": "integer"
+          },
+          "total_cnt_air_ord_luxe": {
+            "type": "integer"
+          },
+          "total_cnt_bad_reviews_30_d_bh": {
+            "type": "long"
+          },
+          "total_cnt_bad_reviews_7_d_bh": {
+            "type": "long"
+          },
+          "total_cnt_bad_reviews_bh": {
+            "type": "long"
+          },
+          "total_cnt_bad_service_record_bh": {
+            "type": "integer"
+          },
+          "total_cnt_call_incity_beatles": {
+            "type": "long"
+          },
+          "total_cnt_call_need_taxi": {
+            "type": "long"
+          },
+          "total_cnt_call_ord_daijia": {
+            "type": "long"
+          },
+          "total_cnt_call_order_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_call_orders_crosscity_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_call_orders_dj": {
+            "type": "integer"
+          },
+          "total_cnt_call_orders_his_taxi": {
+            "type": "long"
+          },
+          "total_cnt_call_orders_sofa": {
+            "type": "integer"
+          },
+          "total_cnt_call_orders_sofa_pingzuo": {
+            "type": "long"
+          },
+          "total_cnt_call_orders_sofa_solo": {
+            "type": "long"
+          },
+          "total_cnt_call_taxi": {
+            "type": "integer"
+          },
+          "total_cnt_call_tj": {
+            "type": "long"
+          },
+          "total_cnt_call_yx": {
+            "type": "integer"
+          },
+          "total_cnt_cancel_after_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_cancel_after_strive_crosscity_beatles": {
+            "type": "long"
+          },
+          "total_cnt_cancel_before_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_cancel_before_strive_crosscity_beatles": {
+            "type": "long"
+          },
+          "total_cnt_cancel_ord_daijia": {
+            "type": "long"
+          },
+          "total_cnt_cancel_orders_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_cancel_orders_taxi": {
+            "type": "integer"
+          },
+          "total_cnt_coupon_bind_bh": {
+            "type": "integer"
+          },
+          "total_cnt_coupon_spend_bh": {
+            "type": "integer"
+          },
+          "total_cnt_cross_cancel_after_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_cross_cancel_before_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_days_from_first_call_en": {
+            "type": "integer"
+          },
+          "total_cnt_days_from_first_finish_en": {
+            "type": "integer"
+          },
+          "total_cnt_didi_finish_ord_bh": {
+            "type": "integer"
+          },
+          "total_cnt_disorder_stop_report_bh": {
+            "type": "integer"
+          },
+          "total_cnt_end_ord_bh": {
+            "type": "long"
+          },
+          "total_cnt_est_daijia": {
+            "type": "long"
+          },
+          "total_cnt_fault_report_bh": {
+            "type": "integer"
+          },
+          "total_cnt_feedback_record_bh": {
+            "type": "integer"
+          },
+          "total_cnt_finish_incity_beatles": {
+            "type": "long"
+          },
+          "total_cnt_finish_ord_bh": {
+            "type": "integer"
+          },
+          "total_cnt_finish_ord_bluegogo_ht": {
+            "type": "integer"
+          },
+          "total_cnt_finish_ord_newsofa": {
+            "type": "long"
+          },
+          "total_cnt_finish_ord_qbike_ht": {
+            "type": "integer"
+          },
+          "total_cnt_finish_order_esapp_mem_es": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_crosscity_share_fast": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_dj": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_evening_peak_sofa": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_lux": {
+            "type": "long"
+          },
+          "total_cnt_finish_orders_mem_es": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_morning_peak_sofa": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_passenger_airport_gulf": {
+            "type": "long"
+          },
+          "total_cnt_finish_orders_passenger_cn": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_passenger_en": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_peoplesuber": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_sofa": {
+            "type": "long"
+          },
+          "total_cnt_finish_orders_sofa_pingzuo": {
+            "type": "long"
+          },
+          "total_cnt_finish_orders_sofa_solo": {
+            "type": "long"
+          },
+          "total_cnt_finish_orders_taxi": {
+            "type": "long"
+          },
+          "total_cnt_finish_orders_uberblack": {
+            "type": "integer"
+          },
+          "total_cnt_finish_orders_uberx": {
+            "type": "integer"
+          },
+          "total_cnt_finish_tj": {
+            "type": "long"
+          },
+          "total_cnt_finish_upgrade_yx": {
+            "type": "integer"
+          },
+          "total_cnt_finish_yx": {
+            "type": "integer"
+          },
+          "total_cnt_finished_ord_daijia": {
+            "type": "long"
+          },
+          "total_cnt_goods_order_all": {
+            "type": "long"
+          },
+          "total_cnt_goods_order_fast": {
+            "type": "long"
+          },
+          "total_cnt_jietu_finish_ord_bh": {
+            "type": "integer"
+          },
+          "total_cnt_jihuo_mem_es": {
+            "type": "integer"
+          },
+          "total_cnt_login_daijia": {
+            "type": "long"
+          },
+          "total_cnt_mem_es": {
+            "type": "integer"
+          },
+          "total_cnt_onecity_cancel_after_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_onecity_cancel_before_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_order_com_es": {
+            "type": "integer"
+          },
+          "total_cnt_out_opera_return_ord_bh": {
+            "type": "integer"
+          },
+          "total_cnt_out_stop_return_ord_bh": {
+            "type": "integer"
+          },
+          "total_cnt_overtime_ct_14_d_soda": {
+            "type": "double"
+          },
+          "total_cnt_overtime_ct_30_d_soda": {
+            "type": "double"
+          },
+          "total_cnt_overtime_ct_7_d_soda": {
+            "type": "double"
+          },
+          "total_cnt_pay_ord_bh": {
+            "type": "long"
+          },
+          "total_cnt_pay_succ_orders_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_pay_succ_orders_taxi": {
+            "type": "integer"
+          },
+          "total_cnt_payed_ord_daijia": {
+            "type": "long"
+          },
+          "total_cnt_private_lock_report_bh": {
+            "type": "integer"
+          },
+          "total_cnt_purchase_riding_card_bh": {
+            "type": "long"
+          },
+          "total_cnt_purchase_riding_days_bh": {
+            "type": "long"
+          },
+          "total_cnt_recommend": {
+            "type": "integer"
+          },
+          "total_cnt_report_breakdown_bh": {
+            "type": "long"
+          },
+          "total_cnt_report_parking_violators_bh": {
+            "type": "long"
+          },
+          "total_cnt_report_private_lock_bh": {
+            "type": "long"
+          },
+          "total_cnt_send_coupon": {
+            "type": "integer"
+          },
+          "total_cnt_send_newcoupon": {
+            "type": "integer"
+          },
+          "total_cnt_send_oldcoupon": {
+            "type": "integer"
+          },
+          "total_cnt_send_ord_bh": {
+            "type": "long"
+          },
+          "total_cnt_send_orders_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_send_orders_taxi": {
+            "type": "integer"
+          },
+          "total_cnt_spend_coupon_ht": {
+            "type": "long"
+          },
+          "total_cnt_station_gulf": {
+            "type": "long"
+          },
+          "total_cnt_station_pass": {
+            "type": "long"
+          },
+          "total_cnt_succ_orders_soda": {
+            "type": "long"
+          },
+          "total_cnt_succ_orders_taxi": {
+            "type": "integer"
+          },
+          "total_cnt_travel_succ_orders_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_travel_succ_orders_crosscity_beatles": {
+            "type": "integer"
+          },
+          "total_cnt_weixin_finish_ord_bh": {
+            "type": "integer"
+          },
+          "total_cnt_xufei_es": {
+            "type": "integer"
+          },
+          "total_dis_month_gulf": {
+            "type": "double"
+          },
+          "total_finish_cnt_nativeapp": {
+            "type": "long"
+          },
+          "total_finish_cnt_webapp": {
+            "type": "long"
+          },
+          "total_finish_order_gesake": {
+            "type": "long"
+          },
+          "total_finish_orders": {
+            "type": "integer"
+          },
+          "total_finish_orders_90_d": {
+            "type": "integer"
+          },
+          "total_finish_orders_fast": {
+            "type": "integer"
+          },
+          "total_finish_orders_gulf": {
+            "type": "integer"
+          },
+          "total_finish_orders_not_share_fast": {
+            "type": "integer"
+          },
+          "total_finish_orders_share_fast": {
+            "type": "integer"
+          },
+          "total_price_30_d_com_es": {
+            "type": "double"
+          },
+          "total_price_30_d_mem_es": {
+            "type": "double"
+          },
+          "total_price_com_es": {
+            "type": "double"
+          },
+          "total_price_mem_es": {
+            "type": "double"
+          },
+          "total_xufei_money_es": {
+            "type": "double"
+          },
+          "triple_group_passenger": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "type_active_pass": {
+            "type": "integer"
+          },
+          "type_core_gulf": {
+            "type": "integer"
+          },
+          "type_device_bh": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "type_distance_prefer_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "type_experience_damage_gulf": {
+            "type": "integer"
+          },
+          "type_grade_next_season_passenger_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "type_mortgage_bh": {
+            "type": "integer"
+          },
+          "type_os_bh": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "unfinish_order_status_14_d_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "unfinish_order_status_30_d_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "unfinish_order_status_30_d_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "unfinish_order_status_7_d_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "unfinish_order_status_fast": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "unfinish_order_status_gulf": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "unit_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "up_price_fast": {
+            "type": "integer"
+          },
+          "user_explore_type_fast": {
+            "type": "integer"
+          },
+          "user_id_all": {
+            "type": "long"
+          },
+          "user_type_beatles": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "utm_source_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "value_city_passenger_finish_order_arrive_hotel_1_d_all": {
+            "type": "integer"
+          },
+          "value_dis_bubbles_passenger_dif_city_1_d_all": {
+            "type": "long"
+          },
+          "value_product_passenger_finish_order_arrive_hotel_1_d_all": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "value_trust_beatles": {
+            "type": "integer"
+          },
+          "version_client_bh": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "vip_status_daijia": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "vip_trial_daijia": {
+            "type": "integer"
+          },
+          "vou_sensitive_daijia": {
+            "type": "integer"
+          },
+          "warn_cnt": {
+            "type": "integer"
+          },
+          "weak_score_passenger": {
+            "type": "integer"
+          },
+          "xpanel_material_id": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "xufei_comment_es": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "zc_coupon_his_city_id": {
+            "type": "long"
+          },
+          "zc_coupon_his_coupon_expire_time": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "zc_coupon_his_coupon_remain_amount": {
+            "type": "long"
+          },
+          "zc_coupon_his_coupon_remain_cnt": {
+            "type": "long"
+          },
+          "zc_coupon_his_last_pay_time": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "zc_coupon_his_max_valid_date": {
+            "type": "date",
+            "format": "strict_date_optional_time||epoch_millis"
+          },
+          "zc_coupon_his_max_valid_discount_amount": {
+            "type": "long"
+          },
+          "zc_coupon_his_min_valid_discount": {
+            "type": "long"
+          },
+          "zc_coupon_his_sum_pay_amount": {
+            "type": "long"
+          },
+          "zc_coupon_his_sum_pay_cnt": {
+            "type": "long"
+          },
+          "zc_coupon_his_sum_pay_coupon_cnt": {
+            "type": "long"
+          },
+          "zhuce_chongzhi_gap_es": {
+            "type": "double"
+          }
+        }
+      }
+    },
+    "settings": {
+      "index": {
+        "mapping": {
+          "ignore_malformed": "true"
+        },
+        "refresh_interval": "-1",
+        "translog": {
+          "sync_interval": "1m",
+          "durability": "async"
+        },
+        "max_result_window": "10000",
+        "requests": {
+          "cache": {
+            "enable": "true"
+          }
+        },
+        "unassigned": {
+          "node_left": {
+            "delayed_timeout": "5m"
+          }
+        },
+        "priority": "5",
+        "number_of_replicas": "0",
+        "search": {
+          "slowlog": {
+            "threshold": {
+              "fetch": {
+                "warn": "1s",
+                "trace": "200ms",
+                "debug": "500ms",
+                "info": "800ms"
+              },
+              "query": {
+                "warn": "10s",
+                "trace": "500ms",
+                "debug": "1s",
+                "info": "5s"
+              }
+            }
+          }
+        },
+        "number_of_shards": "1",
+        "merge": {
+          "scheduler": {
+            "max_thread_count": "1"
+          }
+        }
+      }
+    },
+    "warmers": {}
+  }
